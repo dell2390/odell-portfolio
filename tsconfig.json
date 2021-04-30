@@ -14,11 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
-    "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
-    "paths": {
-      "components/*": ["components/*"]
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

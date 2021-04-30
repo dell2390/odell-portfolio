@@ -17,13 +17,13 @@ export default {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-  // collectCoverage: true,
+  // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  // coverageDirectory: "coverage",
+  coverageDirectory: "coverage",
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -82,10 +82,6 @@ export default {
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
-  // moduleNameMapper: {
-  //   "^@/(.*)$": "<rootDir>/$1",
-  //   "^~/(.*)$": "<rootDir>/$1",
-  // },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
@@ -177,9 +173,6 @@ export default {
 
   // A map from regular expressions to paths to transformers
   // transform: undefined,
-  // transform: {
-  //   ".*": "babel-jest",
-  // },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
@@ -192,14 +185,10 @@ export default {
 
   // Indicates whether each individual test should be reported during the run
   // verbose: undefined,
-  verbose: true,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],
 
   // Whether to use watchman for file crawling
   // watchman: true,
-
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
-  testPathIgnorePatterns: ["<rootDir>/.next/", "<rootDir>/node_modules/"],
-}
+};
