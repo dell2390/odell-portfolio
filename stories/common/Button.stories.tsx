@@ -1,8 +1,8 @@
-import Button from "components/common/Button";
+import Button from "components/common/Button"
 
 export default {
-  title: "Common/Button",
-  component: Button,
-};
+    title: "Common/Button",
+    component: Button,
+}
 
-export const Basic = () => <Button />;
+export const Basic = () => <Button />
