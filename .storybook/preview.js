@@ -1,4 +1,4 @@
-import "@fontsource/lato"
+import "@fontsource/lato/index.css"
 
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport"
 
