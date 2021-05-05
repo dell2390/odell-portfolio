@@ -14,7 +14,6 @@ const ThemeProvider: FC = ({ children }) => {
             palette: {
                 primary: {
                     main: "#FFA726",
-                    contrastText: "#FFFFFF",
                 },
             },
             overrides: {
@@ -23,6 +22,12 @@ const ThemeProvider: FC = ({ children }) => {
                         textTransform: "none",
                         fontWeight: "bold",
                         letterSpacing: "1px",
+                    },
+                },
+
+                MuiLink: {
+                    root: {
+                        color: "inherit",
                     },
                 },
             },
