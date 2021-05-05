@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Sections/About Basic 1`] = `
+<div
+  className="sectionsabout-basic-makestyles-root-1"
+>
+  <div
+    className="sectionsabout-basic-makestyles-profile-1"
+  >
+    <div
+      className="sectionsabout-basic-makestyles-photowrapper-1"
+    >
+      <div
+        className="sectionsabout-basic-makestyles-root-2 sectionsabout-basic-makestyles-root-3 sectionsabout-basic-makestyles-photo-1"
+      />
+    </div>
+    <div>
+      <h2
+        className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-makestyles-name-1 sectionsabout-basic-muitypography-h2-1"
+      >
+        O'Dell Harmon Jr.
+      </h2>
+      <p
+        className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-makestyles-roles-1 sectionsabout-basic-muitypography-body1-1"
+      >
+        Staff Writer | Editor | Host
+      </p>
+    </div>
+  </div>
+  <div
+    className="sectionsabout-basic-muicontainer-root-1 sectionsabout-basic-makestyles-blurbwrapper-1 sectionsabout-basic-muicontainer-maxwidthlg-1"
+  >
+    <p
+      className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-muitypography-body1-1"
+    >
+      I have worked with Game Informer, IGN, The Houston Chronicle, and a plethora of gaming websites. My charismatic personality has led to significant relationships within the industry — building friendships with people on the publisher and media side of gaming.
+    </p>
+    <a
+      className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-muilink-root-1 sectionsabout-basic-muilink-underlinehover-1 sectionsabout-basic-makestyles-contactlink-1 sectionsabout-basic-muitypography-colorprimary-1"
+      href="mailto:example@example.com"
+      onBlur={[Function]}
+      onFocus={[Function]}
+    >
+      Get In Touch &gt;
+    </a>
+  </div>
+  <button
+    className="sectionsabout-basic-muibuttonbase-root-1 sectionsabout-basic-muibutton-root-1 sectionsabout-basic-muibutton-contained-1 sectionsabout-basic-makestyles-downloadbutton-1 sectionsabout-basic-muibutton-containedprimary-1"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="sectionsabout-basic-muibutton-label-1"
+    >
+      Download CV
+    </span>
+  </button>
+</div>
+`;

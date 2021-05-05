@@ -1,4 +1,4 @@
-import { makeStyles, Typography, Container } from "@material-ui/core"
+import { makeStyles, Container } from "@material-ui/core"
 
 import SocialLinks from "components/common/SocialLinks"
 import Quote from "components/common/Quote"
