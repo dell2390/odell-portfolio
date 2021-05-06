@@ -2,11 +2,12 @@ import { IconButton } from "@material-ui/core"
 import { Twitter, YouTube, LinkedIn } from "@material-ui/icons"
 
 export interface SocialLinksProps {
+    className?: string
     color?: string
 }
 
-const SocialLinks = ({ color }: SocialLinksProps) => (
-    <div>
+const SocialLinks = ({ className, color }: SocialLinksProps) => (
+    <div className={className}>
         <IconButton
             href="https://twitter.com/ODellHarmonJr"
             target="_blank"

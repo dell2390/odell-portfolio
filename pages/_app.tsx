@@ -6,6 +6,8 @@ import Head from "next/head"
 
 import ThemeProvider from "components/scaffold/ThemeProvider"
 import CssBaselined from "components/scaffold/CssBaselined"
+import Header from "components/scaffold/Header"
+import Footer from "components/scaffold/Footer"
 
 const App = ({ Component, pageProps }: AppProps) => {
     useEffect(() => {
@@ -27,7 +29,9 @@ const App = ({ Component, pageProps }: AppProps) => {
             </Head>
             <ThemeProvider>
                 <CssBaselined>
+                    <Header />
                     <Component {...pageProps} />
+                    <Footer />
                 </CssBaselined>
             </ThemeProvider>
         </>

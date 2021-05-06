@@ -1,5 +1,9 @@
-const HomePage = () => {
-  return <div>Welcome to Next.js!</div>;
-};
+import About from "components/sections/About"
 
-export default HomePage;
+const HomePage = () => (
+    <>
+        <About />
+    </>
+)
+
+export default HomePage
