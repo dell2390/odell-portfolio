@@ -1,11 +1,9 @@
 import { makeStyles, Typography, Link, Button, Container } from "@material-ui/core"
 
-import AspectRatio from "components/common/AspectRatio"
-
 const useStyles = makeStyles(({ shape, shadows, spacing, breakpoints }) => ({
     root: {
-        paddingTop: spacing(5),
-        paddingBottom: spacing(5),
+        marginTop: spacing(5),
+        marginBottom: spacing(5),
     },
 
     profile: {
@@ -19,19 +17,17 @@ const useStyles = makeStyles(({ shape, shadows, spacing, breakpoints }) => ({
         },
     },
 
-    photoWrapper: {
+    photo: {
         width: spacing(30),
+        height: "auto",
+
+        transform: "rotate(-4deg)",
+        boxShadow: shadows[4],
+        borderRadius: shape.borderRadius * 2,
 
         [breakpoints.up("md")]: {
             marginRight: spacing(5),
         },
-    },
-    photo: {
-        transform: "rotate(-4deg)",
-        boxShadow: shadows[4],
-        borderRadius: shape.borderRadius * 2,
-        backgroundImage: "url(http://placekitten.com/200/300)",
-        backgroundSize: "cover",
     },
 
     name: {
@@ -75,9 +71,11 @@ const About = () => {
     return (
         <div className={classes.root}>
             <div className={classes.profile}>
-                <div className={classes.photoWrapper}>
-                    <AspectRatio className={classes.photo} aspectRatio="4:5" />
-                </div>
+                <img
+                    className={classes.photo}
+                    src="http://placekitten.com/400/500"
+                    alt="O'Dell Profile"
+                />
 
                 <div>
                     <Typography className={classes.name} variant="h2">
