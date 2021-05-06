@@ -7,13 +7,11 @@ exports[`Storyshots Sections/About Basic 1`] = `
   <div
     className="sectionsabout-basic-makestyles-profile-1"
   >
-    <div
-      className="sectionsabout-basic-makestyles-photowrapper-1"
-    >
-      <div
-        className="sectionsabout-basic-makestyles-root-2 sectionsabout-basic-makestyles-root-3 sectionsabout-basic-makestyles-photo-1"
-      />
-    </div>
+    <img
+      alt="O'Dell Profile"
+      className="sectionsabout-basic-makestyles-photo-1"
+      src="http://placekitten.com/400/500"
+    />
     <div>
       <h2
         className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-makestyles-name-1 sectionsabout-basic-muitypography-h2-1"
