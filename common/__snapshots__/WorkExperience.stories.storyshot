@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Common/WorkExperience Basic 1`] = `
+<div
+  className="commonworkexperience-basic-muipaper-root-1 commonworkexperience-basic-makestyles-root-1 commonworkexperience-basic-muipaper-elevation1-1 commonworkexperience-basic-muipaper-rounded-1"
+>
+  <p
+    className="commonworkexperience-basic-muitypography-root-1 commonworkexperience-basic-makestyles-position-1 commonworkexperience-basic-muitypography-body1-1"
+  >
+    Enim consectetur voluptate eu anim | Voluptate
+  </p>
+  <p
+    className="commonworkexperience-basic-muitypography-root-1 commonworkexperience-basic-makestyles-duration-1 commonworkexperience-basic-muitypography-body1-1"
+  >
+    January 2000 - Present
+  </p>
+  <p
+    className="commonworkexperience-basic-muitypography-root-1 commonworkexperience-basic-makestyles-description-1 commonworkexperience-basic-muitypography-body1-1"
+  >
+    Officia commodo non ullamco magna. Elit aliqua dolore aute aliqua culpa esse culpa non magna pariatur. Anim consequat veniam consequat culpa irure Lorem sint nulla cillum Lorem. Ad sit anim ipsum cupidatat qui veniam commodo.
+  </p>
+  <a
+    className="commonworkexperience-basic-muitypography-root-1 commonworkexperience-basic-muilink-root-1 commonworkexperience-basic-muilink-underlinehover-1 commonworkexperience-basic-makestyles-content-1 commonworkexperience-basic-makestyles-content-2 commonworkexperience-basic-muitypography-colorprimary-1"
+    href="https://www.google.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    See My Voluptate Content &gt;
+  </a>
+</div>
+`;
+
+exports[`Storyshots Common/WorkExperience With Header 1`] = `
+<div
+  className="commonworkexperience-with-header-muipaper-root-1 commonworkexperience-with-header-makestyles-root-1 commonworkexperience-with-header-muipaper-elevation1-1 commonworkexperience-with-header-muipaper-rounded-1"
+>
+  <div
+    className="commonworkexperience-with-header-makestyles-header-1"
+  >
+    <img
+      alt="placeholder kitten"
+      height="100%"
+      src="http://placekitten.com/400/75"
+    />
+  </div>
+  <p
+    className="commonworkexperience-with-header-muitypography-root-1 commonworkexperience-with-header-makestyles-position-1 commonworkexperience-with-header-muitypography-body1-1"
+  >
+    Enim consectetur voluptate eu anim | Voluptate
+  </p>
+  <p
+    className="commonworkexperience-with-header-muitypography-root-1 commonworkexperience-with-header-makestyles-duration-1 commonworkexperience-with-header-muitypography-body1-1"
+  >
+    January 2000 - Present
+  </p>
+  <p
+    className="commonworkexperience-with-header-muitypography-root-1 commonworkexperience-with-header-makestyles-description-1 commonworkexperience-with-header-muitypography-body1-1"
+  >
+    Officia commodo non ullamco magna. Elit aliqua dolore aute aliqua culpa esse culpa non magna pariatur. Anim consequat veniam consequat culpa irure Lorem sint nulla cillum Lorem. Ad sit anim ipsum cupidatat qui veniam commodo.
+  </p>
+  <a
+    className="commonworkexperience-with-header-muitypography-root-1 commonworkexperience-with-header-muilink-root-1 commonworkexperience-with-header-muilink-underlinehover-1 commonworkexperience-with-header-makestyles-content-1 commonworkexperience-with-header-makestyles-content-2 commonworkexperience-with-header-muitypography-colorprimary-1"
+    href="https://www.google.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    See My Voluptate Content &gt;
+  </a>
+</div>
+`;
