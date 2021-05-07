@@ -9,6 +9,7 @@ const useStyles = makeStyles(({ spacing }) => ({
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        paddingTop: spacing(5),
     },
     message: {},
     quote: {
