@@ -2,14 +2,16 @@ import { ReactNode } from "react"
 import { makeStyles, Typography, TypographyProps } from "@material-ui/core"
 import cx from "clsx"
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(({ spacing }) => ({
     message: {
         fontStyle: "italic",
     },
     signiture: {
         textAlign: "end",
+        marginTop: spacing(2),
+        opacity: 0.75,
     },
-})
+}))
 
 export interface QuoteProps {
     className?: string
