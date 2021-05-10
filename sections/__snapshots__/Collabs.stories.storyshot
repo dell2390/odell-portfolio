@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Sections/Collabs Basic 1`] = `
+<div
+  className="sectionscollabs-basic-makestyles-root-1"
+>
+  <h4
+    className="sectionscollabs-basic-muitypography-root-1 sectionscollabs-basic-makestyles-title-1 sectionscollabs-basic-muitypography-h4-1"
+  >
+    Brand Collabs
+  </h4>
+</div>
+`;
