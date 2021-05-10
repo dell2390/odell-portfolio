@@ -5,6 +5,7 @@ import cx from "clsx"
 const useStyles = makeStyles(({ spacing }) => ({
     message: {
         fontStyle: "italic",
+        textAlign: "left",
     },
     signiture: {
         textAlign: "end",
