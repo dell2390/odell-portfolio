@@ -45,7 +45,7 @@ const SlideIndicators = ({ className, total, currentIndex, onClick }: SlideIndic
     const currentIndexArr = Array.isArray(currentIndex) ? currentIndex : [currentIndex]
 
     return (
-        <Fade in={currentIndexArr.length}>
+        <Fade in={Boolean(currentIndexArr.length)}>
             <div className={cx(classes.root, className)}>
                 {Array(total)
                     .fill(null)
