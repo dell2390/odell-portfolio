@@ -152,6 +152,8 @@ const Collabs = ({ className }: CollabsProps) => {
                     showStatus={false}
                     showThumbs={false}
                     autoPlay
+                    swipeable
+                    emulateTouch
                     interval={CAROUSEL_INTERVAL_MS}
                     selectedItem={brandIndex}
                     onChange={(i) => setBrandIndex(i)}
