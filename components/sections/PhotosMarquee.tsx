@@ -3,8 +3,8 @@ import Marquee from "react-fast-marquee"
 
 const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     root: {
-        marginTop: spacing(5),
-        marginBottom: spacing(5),
+        marginTop: spacing(10),
+        marginBottom: spacing(10),
         height: "250px",
     },
 
