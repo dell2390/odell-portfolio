@@ -7,8 +7,9 @@ const useStyles = makeStyles(({ spacing }) => ({
         flexDirection: "row",
     },
     indicator: {
-        height: spacing(2),
-        width: spacing(2),
+        padding: 0,
+        height: spacing(1.5),
+        width: spacing(1.5),
         borderRadius: "100%",
         borderWidth: "2px",
         borderColor: "#000000",
