@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core"
+import { makeStyles, Fade } from "@material-ui/core"
 import cx from "clsx"
 
 const useStyles = makeStyles(({ spacing }) => ({
@@ -7,8 +7,9 @@ const useStyles = makeStyles(({ spacing }) => ({
         flexDirection: "row",
     },
     indicator: {
-        height: spacing(2),
-        width: spacing(2),
+        padding: 0,
+        height: spacing(1.5),
+        width: spacing(1.5),
         borderRadius: "100%",
         borderWidth: "2px",
         borderColor: "#000000",
@@ -44,30 +45,30 @@ const SlideIndicators = ({ className, total, currentIndex, onClick }: SlideIndic
     const currentIndexArr = Array.isArray(currentIndex) ? currentIndex : [currentIndex]
 
     return (
-        <div className={cx(classes.root, className)}>
-            {Array(total)
-                .fill(null)
-                .map((_, index) =>
-                    onClick ? (
-                        <button
-                            key={index}
-                            className={cx(classes.indicator, classes.clickable, {
-                                // [classes.active]: currentIndex === index,
-                                [classes.active]: currentIndexArr.includes(index),
-                            })}
-                            onClick={() => onClick(index)}
-                        />
-                    ) : (
-                        <div
-                            key={index}
-                            className={cx(classes.indicator, {
-                                // [classes.active]: currentIndex === index,
-                                [classes.active]: currentIndexArr.includes(index),
-                            })}
-                        />
-                    )
-                )}
-        </div>
+        <Fade in={currentIndexArr.length}>
+            <div className={cx(classes.root, className)}>
+                {Array(total)
+                    .fill(null)
+                    .map((_, index) =>
+                        onClick ? (
+                            <button
+                                key={index}
+                                className={cx(classes.indicator, classes.clickable, {
+                                    [classes.active]: currentIndexArr.includes(index),
+                                })}
+                                onClick={() => onClick(index)}
+                            />
+                        ) : (
+                            <div
+                                key={index}
+                                className={cx(classes.indicator, {
+                                    [classes.active]: currentIndexArr.includes(index),
+                                })}
+                            />
+                        )
+                    )}
+            </div>
+        </Fade>
     )
 }
 

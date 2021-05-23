@@ -9,13 +9,13 @@ import SlideIndicators from "components/common/SlideIndicators"
 
 const useStyles = makeStyles(({ spacing, breakpoints }) => ({
     root: {
-        paddingTop: spacing(4),
-        paddingBottom: spacing(4),
+        paddingTop: spacing(5),
+        paddingBottom: spacing(10),
     },
     title: {
         textAlign: "center",
         fontWeight: 900,
-        marginBottom: spacing(3),
+        marginBottom: spacing(5),
     },
     collabs: {
         paddingLeft: spacing(2),
@@ -152,6 +152,8 @@ const Collabs = ({ className }: CollabsProps) => {
                     showStatus={false}
                     showThumbs={false}
                     autoPlay
+                    swipeable
+                    emulateTouch
                     interval={CAROUSEL_INTERVAL_MS}
                     selectedItem={brandIndex}
                     onChange={(i) => setBrandIndex(i)}
