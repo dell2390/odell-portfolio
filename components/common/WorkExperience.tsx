@@ -6,6 +6,9 @@ const useStyles = makeStyles<Theme, { color?: string }>(({ spacing, shape, typog
     root: {
         borderRadius: shape.borderRadius * 2,
         padding: spacing(2),
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
     },
     header: {
         display: "flex",
@@ -23,6 +26,7 @@ const useStyles = makeStyles<Theme, { color?: string }>(({ spacing, shape, typog
     description: {
         marginTop: spacing(2),
         lineHeight: "160%",
+        flexGrow: 1,
     },
     content: ({ color }) => ({
         display: "inline-block",

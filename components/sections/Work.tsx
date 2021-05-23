@@ -9,14 +9,14 @@ import WorkExperience from "components/common/WorkExperience"
 const useStyles = makeStyles(({ spacing, palette }) => ({
     root: {
         backgroundColor: "#173F64",
-        paddingTop: spacing(4),
-        paddingBottom: spacing(4),
+        paddingTop: spacing(5),
+        paddingBottom: spacing(10),
     },
     title: {
         color: palette.getContrastText("#173F64"),
         textAlign: "center",
         fontWeight: 900,
-        marginBottom: spacing(3),
+        marginBottom: spacing(5),
     },
     header: {
         height: "100%",
@@ -40,7 +40,7 @@ const Work = ({ className }: WorkProps) => {
             </Typography>
             <Container>
                 <Grid container spacing={4} justify="center">
-                    <Grid item xs={12} sm={10} md={6}>
+                    <Grid item xs={12} md={6}>
                         <WorkExperience
                             header={
                                 <img
@@ -57,10 +57,10 @@ const Work = ({ className }: WorkProps) => {
                             color="#25B5EA"
                         />
                     </Grid>
-                    <Grid item xs={12} sm={10} md={6}>
+                    <Grid item xs={12} md={6}>
                         <WorkExperience
                             header={<IGNLogo className={classes.header} />}
-                            position="Freelance Games Writer | IGN Etertainment"
+                            position="Freelance Games Writer | IGN Entertainment"
                             duration="June 2017-Present"
                             description="Helps produce IGN Wiki guides, records game play, and aides in compiling Nintendo News."
                             contentLabel="See My IGN Content >"
@@ -68,7 +68,7 @@ const Work = ({ className }: WorkProps) => {
                             color="#BF1313"
                         />
                     </Grid>
-                    <Grid item xs={12} sm={10} md={6}>
+                    <Grid item xs={12} md={6}>
                         <WorkExperience
                             header={
                                 <img
@@ -85,7 +85,7 @@ const Work = ({ className }: WorkProps) => {
                             color="#EE3B33"
                         />
                     </Grid>
-                    <Grid item xs={12} sm={10} md={6}>
+                    <Grid item xs={12} md={6}>
                         <WorkExperience
                             header={<GameInformerLogo className={classes.header} />}
                             position="Content Intern | Game Informer"
