@@ -33,13 +33,15 @@ export interface SlideIndicatorsProps {
     className?: string
 
     total: number
-    currentIndex: number
+    currentIndex: number | number[]
 
     onClick?: (index: number) => void
 }
 
 const SlideIndicators = ({ className, total, currentIndex, onClick }: SlideIndicatorsProps) => {
     const classes = useStyles()
+
+    const currentIndexArr = Array.isArray(currentIndex) ? currentIndex : [currentIndex]
 
     return (
         <div className={cx(classes.root, className)}>
@@ -50,7 +52,8 @@ const SlideIndicators = ({ className, total, currentIndex, onClick }: SlideIndic
                         <button
                             key={index}
                             className={cx(classes.indicator, classes.clickable, {
-                                [classes.active]: currentIndex === index,
+                                // [classes.active]: currentIndex === index,
+                                [classes.active]: currentIndexArr.includes(index),
                             })}
                             onClick={() => onClick(index)}
                         />
@@ -58,7 +61,8 @@ const SlideIndicators = ({ className, total, currentIndex, onClick }: SlideIndic
                         <div
                             key={index}
                             className={cx(classes.indicator, {
-                                [classes.active]: currentIndex === index,
+                                // [classes.active]: currentIndex === index,
+                                [classes.active]: currentIndexArr.includes(index),
                             })}
                         />
                     )
