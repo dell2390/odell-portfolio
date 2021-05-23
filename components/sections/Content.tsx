@@ -11,25 +11,25 @@ import Article, { ArticleProps } from "components/common/Article"
 import Video, { VideoProps } from "components/common/Video"
 import SlideIndicators from "components/common/SlideIndicators"
 
-const useStyles = makeStyles(({ spacing, breakpoints }) => ({
+const useStyles = makeStyles(({ spacing }) => ({
     root: {
-        paddingTop: spacing(4),
-        paddingBottom: spacing(4),
+        paddingTop: spacing(5),
+        paddingBottom: spacing(10),
     },
     title: {
         textAlign: "center",
         fontWeight: 900,
-        marginBottom: spacing(3),
+        marginBottom: spacing(5),
     },
     list: {
-        marginTop: spacing(5),
+        marginTop: spacing(10),
+
+        "&:first-child": {
+            marginTop: 0,
+        },
     },
     indicators: {
         justifyContent: "center",
-
-        // [breakpoints.up("sm")]: {
-        //     display: "none",
-        // },
     },
 }))
 
@@ -168,56 +168,58 @@ const Content = ({ className }: ContentProps) => {
                 My Work Around The Internet
             </Typography>
 
-            <RSSPodcastsContentList
-                className={classes.list}
-                title="Full Circle Podcast"
-                rss="https://feeds.soundcloud.com/users/soundcloud:users:442261950/sounds.rss"
-            />
-
-            <PodcastsContentList
-                className={classes.list}
-                title="Podcast Appearances"
-                feed={PODCAST_APPEARANCES}
-            />
-
-            <ContentList className={classes.list} label="Written Work">
-                <OverflowList onChange={(index, value) => writtenOnChange(index, value)}>
-                    {ARTICLES.map((article, index) => (
-                        <Article key={index} {...article} />
-                    ))}
-                </OverflowList>
-                <SlideIndicators
-                    className={classes.indicators}
-                    currentIndex={writtenIndex}
-                    total={ARTICLES.length}
+            <div>
+                <RSSPodcastsContentList
+                    className={classes.list}
+                    title="Full Circle Podcast"
+                    rss="https://feeds.soundcloud.com/users/soundcloud:users:442261950/sounds.rss"
                 />
-            </ContentList>
 
-            <ContentList className={classes.list} label="Video Content">
-                <OverflowList onChange={(index, value) => videoOnChange(index, value)}>
-                    {VIDEOS.map((video, index) => (
-                        <Video key={index} {...video} />
-                    ))}
-                </OverflowList>
-                <SlideIndicators
-                    className={classes.indicators}
-                    currentIndex={videoIndex}
-                    total={VIDEOS.length}
+                <PodcastsContentList
+                    className={classes.list}
+                    title="Podcast Appearances"
+                    feed={PODCAST_APPEARANCES}
                 />
-            </ContentList>
 
-            <ContentList className={classes.list} label="On Cemera / Hosting">
-                <OverflowList onChange={(index, value) => hostingOnChange(index, value)}>
-                    {VIDEO_APPEARANCES.map((appearance, index) => (
-                        <Video key={index} {...appearance} />
-                    ))}
-                </OverflowList>
-                <SlideIndicators
-                    className={classes.indicators}
-                    currentIndex={hostingIndex}
-                    total={VIDEO_APPEARANCES.length}
-                />
-            </ContentList>
+                <ContentList className={classes.list} label="Written Work">
+                    <OverflowList onChange={(index, value) => writtenOnChange(index, value)}>
+                        {ARTICLES.map((article, index) => (
+                            <Article key={index} {...article} />
+                        ))}
+                    </OverflowList>
+                    <SlideIndicators
+                        className={classes.indicators}
+                        currentIndex={writtenIndex}
+                        total={ARTICLES.length}
+                    />
+                </ContentList>
+
+                <ContentList className={classes.list} label="Video Content">
+                    <OverflowList onChange={(index, value) => videoOnChange(index, value)}>
+                        {VIDEOS.map((video, index) => (
+                            <Video key={index} {...video} />
+                        ))}
+                    </OverflowList>
+                    <SlideIndicators
+                        className={classes.indicators}
+                        currentIndex={videoIndex}
+                        total={VIDEOS.length}
+                    />
+                </ContentList>
+
+                <ContentList className={classes.list} label="On Cemera / Hosting">
+                    <OverflowList onChange={(index, value) => hostingOnChange(index, value)}>
+                        {VIDEO_APPEARANCES.map((appearance, index) => (
+                            <Video key={index} {...appearance} />
+                        ))}
+                    </OverflowList>
+                    <SlideIndicators
+                        className={classes.indicators}
+                        currentIndex={hostingIndex}
+                        total={VIDEO_APPEARANCES.length}
+                    />
+                </ContentList>
+            </div>
         </div>
     )
 }
