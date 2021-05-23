@@ -9,43 +9,262 @@ exports[`Storyshots Sections/Content Basic 1`] = `
   >
     My Work Around The Internet
   </h4>
-  <div
-    className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
-  >
-    <p
-      className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
-    >
-      Full Circle Podcast
-    </p>
+  <div>
     <div
-      className="sectionscontent-basic-makestyles-root-3"
-    />
-    <div
-      className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-2"
-    />
-  </div>
-  <div
-    className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
-  >
-    <p
-      className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
     >
-      Podcast Appearances
-    </p>
-    <div
-      className="sectionscontent-basic-makestyles-root-3"
-    >
+      <p
+        className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      >
+        Full Circle Podcast
+      </p>
       <div
-        className="sectionscontent-basic-makestyles-item-1"
+        className="sectionscontent-basic-makestyles-root-3"
+      />
+      <div
+        className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-2"
+        style={
+          Object {
+            "opacity": 0,
+            "visibility": "hidden",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
+    >
+      <p
+        className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      >
+        Podcast Appearances
+      </p>
+      <div
+        className="sectionscontent-basic-makestyles-root-3"
       >
         <div
-          className="sectionscontent-basic-makestyles-slide-1"
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            className="sectionscontent-basic-makestyles-slide-1"
           >
+            <div
+              className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Qui Sapiente Atque podcast cover"
+                  className="sectionscontent-basic-makestyles-photo-1"
+                  src="http://placeimg.com/256/256/games"
+                />
+              </a>
+              <div
+                className="sectionscontent-basic-makestyles-info-1"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Qui Sapiente Atque
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
+                >
+                  Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+                </p>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Qui Sapiente Atque podcast cover"
+                  className="sectionscontent-basic-makestyles-photo-1"
+                  src="http://placeimg.com/256/256/games"
+                />
+              </a>
+              <div
+                className="sectionscontent-basic-makestyles-info-1"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Qui Sapiente Atque
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
+                >
+                  Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-makestyles-slide-1"
+          >
+            <div
+              className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Qui Sapiente Atque podcast cover"
+                  className="sectionscontent-basic-makestyles-photo-1"
+                  src="http://placeimg.com/256/256/games"
+                />
+              </a>
+              <div
+                className="sectionscontent-basic-makestyles-info-1"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Qui Sapiente Atque
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
+                >
+                  Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-2"
+        style={
+          Object {
+            "opacity": 0,
+            "visibility": "hidden",
+          }
+        }
+      >
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+      </div>
+    </div>
+    <div
+      className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
+    >
+      <p
+        className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      >
+        Written Work
+      </p>
+      <div
+        className="sectionscontent-basic-makestyles-root-3"
+      >
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          >
+            <div
+              className="sectionscontent-basic-makestyles-header-1"
+            >
+              <img
+                alt="Hudson Inc logo"
+                className="sectionscontent-basic-makestyles-outletlogo-1"
+                src="http://placeimg.com/100/100"
+              />
+              <div
+                className="sectionscontent-basic-makestyles-info-2"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Hudson Inc | December 25, 2000
+                </p>
+              </div>
+            </div>
             <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
               href="https://www.google.com"
               onBlur={[Function]}
               onFocus={[Function]}
@@ -53,45 +272,58 @@ exports[`Storyshots Sections/Content Basic 1`] = `
               target="_blank"
             >
               <img
-                alt="Qui Sapiente Atque podcast cover"
-                className="sectionscontent-basic-makestyles-photo-1"
-                src="http://placeimg.com/256/256/games"
+                alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
+                className="sectionscontent-basic-makestyles-photo-2"
+                src="http://placeimg.com/1280/720/city"
               />
             </a>
-            <div
-              className="sectionscontent-basic-makestyles-info-1"
+            <p
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                Qui Sapiente Atque
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
-              >
-                Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-              </p>
-            </div>
+              Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+            </p>
           </div>
+        </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
           <div
-            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
+            <div
+              className="sectionscontent-basic-makestyles-header-1"
+            >
+              <img
+                alt="Hudson Inc logo"
+                className="sectionscontent-basic-makestyles-outletlogo-1"
+                src="http://placeimg.com/100/100"
+              />
+              <div
+                className="sectionscontent-basic-makestyles-info-2"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Hudson Inc | December 25, 2000
+                </p>
+              </div>
+            </div>
             <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
               href="https://www.google.com"
               onBlur={[Function]}
               onFocus={[Function]}
@@ -99,53 +331,58 @@ exports[`Storyshots Sections/Content Basic 1`] = `
               target="_blank"
             >
               <img
-                alt="Qui Sapiente Atque podcast cover"
-                className="sectionscontent-basic-makestyles-photo-1"
-                src="http://placeimg.com/256/256/games"
+                alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
+                className="sectionscontent-basic-makestyles-photo-2"
+                src="http://placeimg.com/1280/720/city"
               />
             </a>
-            <div
-              className="sectionscontent-basic-makestyles-info-1"
+            <p
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                Qui Sapiente Atque
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
-              >
-                Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-              </p>
-            </div>
+              Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+            </p>
           </div>
         </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
         <div
-          className="sectionscontent-basic-makestyles-slide-1"
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-5 sectionscontent-basic-makestyles-podcast-1 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
+            <div
+              className="sectionscontent-basic-makestyles-header-1"
+            >
+              <img
+                alt="Hudson Inc logo"
+                className="sectionscontent-basic-makestyles-outletlogo-1"
+                src="http://placeimg.com/100/100"
+              />
+              <div
+                className="sectionscontent-basic-makestyles-info-2"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://www.google.com"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Aliqua nisi culpa eiusmod quis veniam consequat esse
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  Hudson Inc | December 25, 2000
+                </p>
+              </div>
+            </div>
             <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-1 sectionscontent-basic-muitypography-colorprimary-1"
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
               href="https://www.google.com"
               onBlur={[Function]}
               onFocus={[Function]}
@@ -153,919 +390,714 @@ exports[`Storyshots Sections/Content Basic 1`] = `
               target="_blank"
             >
               <img
-                alt="Qui Sapiente Atque podcast cover"
-                className="sectionscontent-basic-makestyles-photo-1"
-                src="http://placeimg.com/256/256/games"
+                alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
+                className="sectionscontent-basic-makestyles-photo-2"
+                src="http://placeimg.com/1280/720/city"
               />
             </a>
-            <div
-              className="sectionscontent-basic-makestyles-info-1"
+            <p
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-2 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  #XX - Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-series-1 sectionscontent-basic-makestyles-oneline-1 sectionscontent-basic-muitypography-body1-1"
-              >
-                Qui Sapiente Atque
-              </p>
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-description-1 sectionscontent-basic-muitypography-body2-1"
-              >
-                Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-              </p>
-            </div>
+              Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-2"
-    >
       <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-    </div>
-  </div>
-  <div
-    className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
-  >
-    <p
-      className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
-    >
-      Written Work
-    </p>
-    <div
-      className="sectionscontent-basic-makestyles-root-3"
-    >
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
+        className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
+        style={
+          Object {
+            "opacity": 0,
+            "visibility": "hidden",
+          }
+        }
       >
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+      </div>
+    </div>
+    <div
+      className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
+    >
+      <p
+        className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      >
+        Video Content
+      </p>
+      <div
+        className="sectionscontent-basic-makestyles-root-3"
+      >
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-makestyles-header-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
-            <img
-              alt="Hudson Inc logo"
-              className="sectionscontent-basic-makestyles-outletlogo-1"
-              src="http://placeimg.com/100/100"
-            />
             <div
-              className="sectionscontent-basic-makestyles-info-2"
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
               >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
                 >
-                  Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
               <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
               >
                 Hudson Inc | December 25, 2000
               </p>
             </div>
           </div>
-          <a
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
-              className="sectionscontent-basic-makestyles-photo-2"
-              src="http://placeimg.com/1280/720/city"
-            />
-          </a>
-          <p
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
-          >
-            Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-          </p>
         </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-makestyles-header-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
-            <img
-              alt="Hudson Inc logo"
-              className="sectionscontent-basic-makestyles-outletlogo-1"
-              src="http://placeimg.com/100/100"
-            />
             <div
-              className="sectionscontent-basic-makestyles-info-2"
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
               >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
                 >
-                  Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
               <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
               >
                 Hudson Inc | December 25, 2000
               </p>
             </div>
           </div>
-          <a
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
-              className="sectionscontent-basic-makestyles-photo-2"
-              src="http://placeimg.com/1280/720/city"
-            />
-          </a>
-          <p
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
-          >
-            Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-          </p>
         </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-makestyles-header-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
-            <img
-              alt="Hudson Inc logo"
-              className="sectionscontent-basic-makestyles-outletlogo-1"
-              src="http://placeimg.com/100/100"
-            />
             <div
-              className="sectionscontent-basic-makestyles-info-2"
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
             >
-              <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
               >
-                <a
-                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
-                  href="https://www.google.com"
-                  onBlur={[Function]}
-                  onFocus={[Function]}
-                  rel="noopener noreferrer"
-                  target="_blank"
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
                 >
-                  Aliqua nisi culpa eiusmod quis veniam consequat esse
-                </a>
-              </p>
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
               <p
-                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
               >
                 Hudson Inc | December 25, 2000
               </p>
             </div>
           </div>
-          <a
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Aliqua nisi culpa eiusmod quis veniam consequat esse thumbnail"
-              className="sectionscontent-basic-makestyles-photo-2"
-              src="http://placeimg.com/1280/720/city"
-            />
-          </a>
-          <p
-            className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
-          >
-            Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.
-          </p>
         </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          >
+            <div
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
+            >
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
+              <p
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
+              >
+                Hudson Inc | December 25, 2000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
+        style={
+          Object {
+            "opacity": 0,
+            "visibility": "hidden",
+          }
+        }
+      >
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
       </div>
     </div>
     <div
-      className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
+      className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
     >
+      <p
+        className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
+      >
+        On Cemera / Hosting
+      </p>
       <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-    </div>
-  </div>
-  <div
-    className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
-  >
-    <p
-      className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
-    >
-      Video Content
-    </p>
-    <div
-      className="sectionscontent-basic-makestyles-root-3"
-    >
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
+        className="sectionscontent-basic-makestyles-root-3"
       >
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          className="sectionscontent-basic-makestyles-item-1"
         >
           <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
             <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
             >
               <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
+                className="sectionscontent-basic-makestyles-player-1"
                 style={
                   Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
                     "height": "100%",
-                    "justifyContent": "center",
                     "width": "100%",
                   }
                 }
-                tabIndex={0}
               >
                 <div
-                  className="react-player__shadow"
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
                   style={
                     Object {
                       "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
                       "display": "flex",
-                      "height": "64px",
+                      "height": "100%",
                       "justifyContent": "center",
-                      "width": "64px",
+                      "width": "100%",
                     }
                   }
+                  tabIndex={0}
                 >
                   <div
-                    className="react-player__play-icon"
+                    className="react-player__shadow"
                     style={
                       Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
                       }
                     }
-                  />
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
                 </div>
               </div>
             </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
+              <p
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
+              >
+                Hudson Inc | December 25, 2000
+              </p>
+            </div>
           </div>
+        </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
           <div
-            className="sectionscontent-basic-makestyles-header-2"
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
           >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
             >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
             >
-              Hudson Inc | December 25, 2000
-            </p>
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
+              <p
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
+              >
+                Hudson Inc | December 25, 2000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          >
+            <div
+              className="sectionscontent-basic-makestyles-playerwrapper-1"
+            >
+              <div
+                className="sectionscontent-basic-makestyles-player-1"
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="react-player__preview"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundImage": undefined,
+                      "backgroundPosition": "center",
+                      "backgroundSize": "cover",
+                      "cursor": "pointer",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={0}
+                >
+                  <div
+                    className="react-player__shadow"
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
+                        "borderRadius": "64px",
+                        "display": "flex",
+                        "height": "64px",
+                        "justifyContent": "center",
+                        "width": "64px",
+                      }
+                    }
+                  >
+                    <div
+                      className="react-player__play-icon"
+                      style={
+                        Object {
+                          "borderColor": "transparent transparent transparent white",
+                          "borderStyle": "solid",
+                          "borderWidth": "16px 0 16px 26px",
+                          "marginLeft": "7px",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionscontent-basic-makestyles-header-2"
+            >
+              <a
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
+                href="https://www.google.com"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Aliqua nisi culpa eiusmod quis veniam consequat esse
+              </a>
+              <p
+                className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
+              >
+                Hudson Inc | December 25, 2000
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div
-        className="sectionscontent-basic-makestyles-item-1"
+        className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
+        style={
+          Object {
+            "opacity": 0,
+            "visibility": "hidden",
+          }
+        }
       >
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
         <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
       </div>
-    </div>
-    <div
-      className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
-    >
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-    </div>
-  </div>
-  <div
-    className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
-  >
-    <p
-      className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-label-1 sectionscontent-basic-muitypography-body1-1"
-    >
-      On Cemera / Hosting
-    </p>
-    <div
-      className="sectionscontent-basic-makestyles-root-3"
-    >
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
-        <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
-        <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        className="sectionscontent-basic-makestyles-item-1"
-      >
-        <div
-          className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-7 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
-        >
-          <div
-            className="sectionscontent-basic-makestyles-playerwrapper-1"
-          >
-            <div
-              className="sectionscontent-basic-makestyles-player-1"
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            >
-              <div
-                className="react-player__preview"
-                onClick={[Function]}
-                onKeyPress={[Function]}
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "backgroundImage": undefined,
-                    "backgroundPosition": "center",
-                    "backgroundSize": "cover",
-                    "cursor": "pointer",
-                    "display": "flex",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={0}
-              >
-                <div
-                  className="react-player__shadow"
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "background": "radial-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 60%)",
-                      "borderRadius": "64px",
-                      "display": "flex",
-                      "height": "64px",
-                      "justifyContent": "center",
-                      "width": "64px",
-                    }
-                  }
-                >
-                  <div
-                    className="react-player__play-icon"
-                    style={
-                      Object {
-                        "borderColor": "transparent transparent transparent white",
-                        "borderStyle": "solid",
-                        "borderWidth": "16px 0 16px 26px",
-                        "marginLeft": "7px",
-                      }
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="sectionscontent-basic-makestyles-header-2"
-          >
-            <a
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-title-4 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body1-1 sectionscontent-basic-muitypography-colorprimary-1"
-              href="https://www.google.com"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Aliqua nisi culpa eiusmod quis veniam consequat esse
-            </a>
-            <p
-              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-2 sectionscontent-basic-makestyles-oneline-3 sectionscontent-basic-muitypography-body2-1"
-            >
-              Hudson Inc | December 25, 2000
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
-    >
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
-      <div
-        className="sectionscontent-basic-makestyles-indicator-1"
-      />
     </div>
   </div>
 </div>

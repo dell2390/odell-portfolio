@@ -169,6 +169,12 @@ exports[`Storyshots Common/PodcastsContentList Basic 1`] = `
   </div>
   <div
     className="commonpodcastscontentlist-basic-makestyles-root-4 commonpodcastscontentlist-basic-makestyles-indicators-1"
+    style={
+      Object {
+        "opacity": 0,
+        "visibility": "hidden",
+      }
+    }
   >
     <div
       className="commonpodcastscontentlist-basic-makestyles-indicator-1"
