@@ -42,6 +42,17 @@ const Work = ({ className }: WorkProps) => {
                 <Grid container spacing={4} justify="center">
                     <Grid item xs={12} md={6}>
                         <WorkExperience
+                            header={<IGNLogo className={classes.header} />}
+                            position="Freelance Games Writer | IGN Entertainment"
+                            duration="June 2017-Present"
+                            description="Helps produce IGN Wiki guides, records game play, and aides in compiling Nintendo News."
+                            contentLabel="See My IGN Content >"
+                            contentHref="https://www.google.com"
+                            color="#BF1313"
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={6}>
+                        <WorkExperience
                             header={
                                 <img
                                     className={classes.header}
@@ -55,17 +66,6 @@ const Work = ({ className }: WorkProps) => {
                             contentLabel="See My Game Fanatics Content >"
                             contentHref="https://www.google.com"
                             color="#25B5EA"
-                        />
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <WorkExperience
-                            header={<IGNLogo className={classes.header} />}
-                            position="Freelance Games Writer | IGN Entertainment"
-                            duration="June 2017-Present"
-                            description="Helps produce IGN Wiki guides, records game play, and aides in compiling Nintendo News."
-                            contentLabel="See My IGN Content >"
-                            contentHref="https://www.google.com"
-                            color="#BF1313"
                         />
                     </Grid>
                     <Grid item xs={12} md={6}>
