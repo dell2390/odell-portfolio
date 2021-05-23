@@ -56,6 +56,7 @@ const useStyles = makeStyles(({ spacing, typography }) => ({
         flexGrow: 1,
         flexShrink: 0,
         opacity: 0.74,
+        maxWidth: "100%",
     },
 }))
 

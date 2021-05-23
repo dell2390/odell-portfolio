@@ -52,7 +52,7 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
     },
 }))
 
-const CAROUSEL_INTERVAL_MS = 10 * 1000
+const CAROUSEL_INTERVAL_MS = 5 * 1000
 
 interface BrandCollabInfo {
     src: string
@@ -87,6 +87,22 @@ const BRAND_COLLABS: BrandCollabInfo[] = [
         src: "http://placekitten.com/800/450",
         color: "#1CB1A7",
     },
+    // {
+    //     message:
+    //         "I believe O’Dell Harmon would be a strong addition to any organization that could capitalize on his broad-ranging skills.",
+    //     person: "Matt Miller",
+    //     role: "Senior Previews Editor, Game Informer",
+    //     src: "http://placekitten.com/800/450",
+    //     color: "#ee659F",
+    // },
+    // {
+    //     message:
+    //         "I believe O’Dell Harmon would be a strong addition to any organization that could capitalize on his broad-ranging skills.",
+    //     person: "Matt Miller",
+    //     role: "Senior Previews Editor, Game Informer",
+    //     src: "http://placekitten.com/800/450",
+    //     color: "#4f6d3F",
+    // },
 ]
 
 export interface CollabsProps {
@@ -131,13 +147,11 @@ const Collabs = ({ className }: CollabsProps) => {
             <Hidden smDown>
                 <Carousel
                     centerMode
-                    infiniteLoop={true}
                     showArrows={false}
                     showIndicators={false}
                     showStatus={false}
                     showThumbs={false}
                     autoPlay
-                    swipeable={false}
                     interval={CAROUSEL_INTERVAL_MS}
                     selectedItem={brandIndex}
                     onChange={(i) => setBrandIndex(i)}
@@ -149,7 +163,6 @@ const Collabs = ({ className }: CollabsProps) => {
                     className={classes.indecators}
                     total={BRAND_COLLABS.length}
                     currentIndex={brandIndex}
-                    onClick={(i) => setBrandIndex(i)}
                 />
             </Hidden>
         </div>

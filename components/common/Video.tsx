@@ -2,14 +2,17 @@ import { makeStyles, Paper, Typography, Link } from "@material-ui/core"
 import cx from "clsx"
 import ReactPlayer from "react-player"
 
-const useStyles = makeStyles(({ spacing }) => ({
+const useStyles = makeStyles(({ spacing, shape }) => ({
     root: {
+        width: "100%",
         overflow: "hidden",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "flex-start",
     },
     playerWrapper: {
+        borderRadius: shape.borderRadius,
+        overflow: "hidden",
         position: "relative",
         paddingTop: "56.25%",
     },

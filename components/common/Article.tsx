@@ -3,6 +3,7 @@ import cx from "clsx"
 
 const useStyles = makeStyles(({ spacing }) => ({
     root: {
+        width: "100%",
         overflow: "hidden",
         display: "flex",
         flexDirection: "column",

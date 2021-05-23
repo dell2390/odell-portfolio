@@ -16,5 +16,5 @@ export const Basic: Story<RSSPodcastsContentListProps> = (args) => (
     <RSSPodcastsContentList {...args} />
 )
 Basic.args = {
-    url: "https://feeds.transistor.fm/gameonysus-weekly",
+    rss: "https://feeds.transistor.fm/gameonysus-weekly",
 }
