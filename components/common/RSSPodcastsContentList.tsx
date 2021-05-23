@@ -28,10 +28,16 @@ const RSSPodcastsContentList = ({
             const fetchBaseUrl =
                 process.env.NODE_ENV === "development" ? "http://localhost:3000" : ""
 
-            const res = await fetch(`${fetchBaseUrl}/api/rss?${new URLSearchParams({ url: rss })}`)
-            const _feed = await res.json()
+            try {
+                const res = await fetch(
+                    `${fetchBaseUrl}/api/rss?${new URLSearchParams({ url: rss })}`
+                )
+                const _feed = await res.json()
 
-            if (running) setFeed(_feed)
+                if (running) setFeed(_feed)
+            } catch (e) {
+                console.log("Error Fetching RSS feed")
+            }
         })()
 
         return () => {
