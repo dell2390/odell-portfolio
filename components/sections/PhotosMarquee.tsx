@@ -1,11 +1,17 @@
 import { makeStyles } from "@material-ui/core"
 import Marquee from "react-fast-marquee"
 
+import marqueePhotos from "data/marqueePhotos"
+
+const MARQUEE_CONTENT_HEIGHT = 250
+
 const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     root: {
-        marginTop: spacing(10),
-        marginBottom: spacing(10),
-        height: "250px",
+        marginTop: spacing(8),
+        marginBottom: spacing(8),
+        paddingTop: spacing(2),
+        paddingBottom: spacing(2),
+        height: `${MARQUEE_CONTENT_HEIGHT + spacing(4)}px`,
     },
 
     image: {
@@ -17,30 +23,19 @@ const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     },
 }))
 
-const PHOTOS = [
-    "http://placekitten.com/200/300",
-    "http://placekitten.com/400/300",
-    "http://placekitten.com/400/600",
-    "http://placekitten.com/200/500",
-    "http://placekitten.com/300/400",
-    "http://placekitten.com/200/300",
-    "http://placekitten.com/400/300",
-    "http://placekitten.com/400/600",
-    "http://placekitten.com/200/500",
-    "http://placekitten.com/300/400",
-]
-
 const PhotosMarquee = () => {
     const classes = useStyles()
 
     return (
         <Marquee className={classes.root} gradient={false}>
-            {PHOTOS.map((photo, index) => (
+            {marqueePhotos.map((photo, index) => (
                 <img
                     key={`${photo}-${index}`}
                     className={classes.image}
-                    src={photo}
-                    alt="some moment"
+                    src={photo.src}
+                    alt={`maruee moment ${index + 1}`}
+                    height={photo.height}
+                    width={photo.width}
                 />
             ))}
         </Marquee>
