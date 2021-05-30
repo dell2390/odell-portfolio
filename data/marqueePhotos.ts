@@ -8,17 +8,17 @@ const PHOTOS: MarqueePhoto[] = [
     {
         src: "/marquee_photo_1.webp",
         height: 300,
-        width: 549,
+        width: 402,
     },
     {
         src: "/marquee_photo_2.webp",
         height: 300,
-        width: 402,
+        width: 169,
     },
     {
         src: "/marquee_photo_3.webp",
         height: 300,
-        width: 169,
+        width: 400,
     },
     {
         src: "/marquee_photo_4.webp",
@@ -124,11 +124,6 @@ const PHOTOS: MarqueePhoto[] = [
         src: "/marquee_photo_24.webp",
         height: 300,
         width: 240,
-    },
-    {
-        src: "/marquee_photo_25.webp",
-        height: 300,
-        width: 400,
     },
 ]
 
