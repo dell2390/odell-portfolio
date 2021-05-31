@@ -10,7 +10,7 @@ exports[`Storyshots Sections/About Basic 1`] = `
     <img
       alt="O'Dell Profile"
       className="sectionsabout-basic-makestyles-photo-1"
-      src="http://placekitten.com/400/500"
+      src="profile.webp"
     />
     <div>
       <h2
