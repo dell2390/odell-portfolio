@@ -67,7 +67,7 @@ const useStyles = makeStyles(({ spacing }) => ({
         boxOrient: "vertical",
         overflow: "hidden",
         lineClamp: 5,
-        flexGrow: 0,
+        flexGrow: 1,
         flexShrink: 0,
         opacity: 0.74,
     },
