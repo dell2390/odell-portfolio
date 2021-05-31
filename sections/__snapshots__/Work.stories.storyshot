@@ -54,16 +54,6 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           >
             Helps produce IGN Wiki guides, records game play, and aides in compiling Nintendo News.
           </p>
-          <a
-            className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-2 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            See My IGN Content &gt;
-          </a>
         </div>
       </div>
       <div
@@ -98,7 +88,7 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           </p>
           <a
             className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-3 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
+            href="https://thegamefanatics.com/author/hare23/"
             onBlur={[Function]}
             onFocus={[Function]}
             rel="noopener noreferrer"
@@ -138,16 +128,6 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           >
             Hosts videos and podcasts, Covers industry news, reviews Indie and AAA titles, composes video scripts, records voice-overs, manages social media, and represents site at gaming conventions.
           </p>
-          <a
-            className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-4 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            See My ESPN Content &gt;
-          </a>
         </div>
       </div>
       <div
@@ -195,7 +175,7 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           </p>
           <a
             className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-5 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://www.google.com"
+            href="https://www.gameinformer.com/user/odell-harmon"
             onBlur={[Function]}
             onFocus={[Function]}
             rel="noopener noreferrer"

@@ -1,14 +1,19 @@
 import { makeStyles, Typography } from "@material-ui/core"
 import cx from "clsx"
 
+import PODCAST_APPEARANCES from "data/podcastAppearances"
+import WRITTEN_WORK from "data/writtenWork"
+import VIDEO_CONTENT from "data/videoContent"
+import ON_CAMERA_HOSTING from "data/onCameraHosting"
+
 import useInViewIndexes from "lib/hooks/useInViewIndexes"
 
 import ContentList from "components/common/ContentList"
 import OverflowList from "components/common/OverflowList"
 import RSSPodcastsContentList from "components/common/RSSPodcastsContentList"
-import PodcastsContentList, { PodcastInformation } from "components/common/PodcastsContentList"
-import Article, { ArticleProps } from "components/common/Article"
-import Video, { VideoProps } from "components/common/Video"
+import PodcastsContentList from "components/common/PodcastsContentList"
+import Article from "components/common/Article"
+import Video from "components/common/Video"
 import SlideIndicators from "components/common/SlideIndicators"
 
 const useStyles = makeStyles(({ spacing }) => ({
@@ -32,124 +37,6 @@ const useStyles = makeStyles(({ spacing }) => ({
         justifyContent: "center",
     },
 }))
-
-const PODCAST_APPEARANCES: PodcastInformation[] = [
-    {
-        id: "a",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        id: "b",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        id: "c",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-]
-
-const ARTICLES: ArticleProps[] = [
-    {
-        thumbnailSrc: "http://placeimg.com/1280/720/city",
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        outletLogoSrc: "http://placeimg.com/100/100",
-        blurb:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        thumbnailSrc: "http://placeimg.com/1280/720/city",
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        outletLogoSrc: "http://placeimg.com/100/100",
-        blurb:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        thumbnailSrc: "http://placeimg.com/1280/720/city",
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        outletLogoSrc: "http://placeimg.com/100/100",
-        blurb:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-]
-
-const VIDEOS: VideoProps[] = [
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-]
-
-const VIDEO_APPEARANCES: VideoProps[] = [
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-]
 
 export interface ContentProps {
     className?: string
@@ -183,40 +70,40 @@ const Content = ({ className }: ContentProps) => {
 
                 <ContentList className={classes.list} label="Written Work">
                     <OverflowList onChange={(index, value) => writtenOnChange(index, value)}>
-                        {ARTICLES.map((article, index) => (
+                        {WRITTEN_WORK.map((article, index) => (
                             <Article key={index} {...article} />
                         ))}
                     </OverflowList>
                     <SlideIndicators
                         className={classes.indicators}
                         currentIndex={writtenIndex}
-                        total={ARTICLES.length}
+                        total={WRITTEN_WORK.length}
                     />
                 </ContentList>
 
                 <ContentList className={classes.list} label="Video Content">
                     <OverflowList onChange={(index, value) => videoOnChange(index, value)}>
-                        {VIDEOS.map((video, index) => (
+                        {VIDEO_CONTENT.map((video, index) => (
                             <Video key={index} {...video} />
                         ))}
                     </OverflowList>
                     <SlideIndicators
                         className={classes.indicators}
                         currentIndex={videoIndex}
-                        total={VIDEOS.length}
+                        total={VIDEO_CONTENT.length}
                     />
                 </ContentList>
 
                 <ContentList className={classes.list} label="On Cemera / Hosting">
                     <OverflowList onChange={(index, value) => hostingOnChange(index, value)}>
-                        {VIDEO_APPEARANCES.map((appearance, index) => (
+                        {ON_CAMERA_HOSTING.map((appearance, index) => (
                             <Video key={index} {...appearance} />
                         ))}
                     </OverflowList>
                     <SlideIndicators
                         className={classes.indicators}
                         currentIndex={hostingIndex}
-                        total={VIDEO_APPEARANCES.length}
+                        total={ON_CAMERA_HOSTING.length}
                     />
                 </ContentList>
             </div>

@@ -14,7 +14,6 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
     item: {
         scrollSnapAlign: "start",
         display: "flex",
-        flexDirection: "column",
         paddingLeft: spacing(2),
         paddingRight: spacing(2),
 

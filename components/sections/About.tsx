@@ -71,11 +71,7 @@ const About = () => {
     return (
         <div className={classes.root}>
             <div className={classes.profile}>
-                <img
-                    className={classes.photo}
-                    src="http://placekitten.com/400/500"
-                    alt="O'Dell Profile"
-                />
+                <img className={classes.photo} src="profile.webp" alt="O'Dell Profile" />
 
                 <div>
                     <Typography className={classes.name} variant="h2">

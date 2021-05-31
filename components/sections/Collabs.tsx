@@ -4,6 +4,8 @@ import cx from "clsx"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from "react-responsive-carousel"
 
+import brandCollabs from "data/brandCollabs"
+
 import BrandCollab from "components/common/BrandCollab"
 import SlideIndicators from "components/common/SlideIndicators"
 
@@ -54,57 +56,6 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
 
 const CAROUSEL_INTERVAL_MS = 5 * 1000
 
-interface BrandCollabInfo {
-    src: string
-    message: string
-    person: string
-    role?: string
-    color?: string
-}
-
-const BRAND_COLLABS: BrandCollabInfo[] = [
-    {
-        message:
-            "O’Dell’s leadership and tenacious drive to tell stories and create great content will bring a spark to any team!",
-        person: 'Charles "Power" Adiukwu Jr.',
-        role: "Founder & Head of Content, The Game Fanatics",
-        src: "http://placekitten.com/800/450",
-        color: "#CF4728",
-    },
-    {
-        message:
-            "I believe O’Dell Harmon would be a strong addition to any organization that could capitalize on his broad-ranging skills.",
-        person: "Matt Miller",
-        role: "Senior Previews Editor, Game Informer",
-        src: "http://placekitten.com/800/450",
-        color: "#00659F",
-    },
-    {
-        message:
-            "He can podcast, make videos, and probably school us all in the titles we think we're great at. If this is a job about covering games, hire O'Dell.",
-        person: "Greg Miller",
-        role: "Co-Founder, Kinda Funny",
-        src: "http://placekitten.com/800/450",
-        color: "#1CB1A7",
-    },
-    // {
-    //     message:
-    //         "I believe O’Dell Harmon would be a strong addition to any organization that could capitalize on his broad-ranging skills.",
-    //     person: "Matt Miller",
-    //     role: "Senior Previews Editor, Game Informer",
-    //     src: "http://placekitten.com/800/450",
-    //     color: "#ee659F",
-    // },
-    // {
-    //     message:
-    //         "I believe O’Dell Harmon would be a strong addition to any organization that could capitalize on his broad-ranging skills.",
-    //     person: "Matt Miller",
-    //     role: "Senior Previews Editor, Game Informer",
-    //     src: "http://placekitten.com/800/450",
-    //     color: "#4f6d3F",
-    // },
-]
-
 export interface CollabsProps {
     className?: string
 }
@@ -113,7 +64,7 @@ const Collabs = ({ className }: CollabsProps) => {
     const classes = useStyles()
     const [brandIndex, setBrandIndex] = useState(0)
 
-    const collabs = BRAND_COLLABS.map((bc, index) => (
+    const collabs = brandCollabs.map((bc, index) => (
         <BrandCollab
             key={index}
             className={cx(classes.collab, { [classes.reverse]: index % 2 === 1 })}
@@ -151,7 +102,7 @@ const Collabs = ({ className }: CollabsProps) => {
                     showIndicators={false}
                     showStatus={false}
                     showThumbs={false}
-                    autoPlay
+                    autoPlay={false}
                     swipeable
                     emulateTouch
                     interval={CAROUSEL_INTERVAL_MS}
@@ -163,7 +114,7 @@ const Collabs = ({ className }: CollabsProps) => {
                 </Carousel>
                 <SlideIndicators
                     className={classes.indecators}
-                    total={BRAND_COLLABS.length}
+                    total={brandCollabs.length}
                     currentIndex={brandIndex}
                 />
             </Hidden>

@@ -30,7 +30,7 @@ const Header = () => {
         <footer className={classes.root}>
             <Container className={classes.message} maxWidth="sm">
                 <Quote
-                    message="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+                    message="Strength is to know how small you are, and still strive to reach heights greater than you can imagine."
                     signiture="- O'Dell Harmon Jr."
                 />
             </Container>
