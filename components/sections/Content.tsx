@@ -13,7 +13,7 @@ import OverflowList from "components/common/OverflowList"
 import RSSPodcastsContentList from "components/common/RSSPodcastsContentList"
 import PodcastsContentList from "components/common/PodcastsContentList"
 import Article from "components/common/Article"
-import Video, { VideoProps } from "components/common/Video"
+import Video from "components/common/Video"
 import SlideIndicators from "components/common/SlideIndicators"
 
 const useStyles = makeStyles(({ spacing }) => ({
