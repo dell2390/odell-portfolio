@@ -4,6 +4,7 @@ import cx from "clsx"
 import PODCAST_APPEARANCES from "data/podcastAppearances"
 import WRITTEN_WORK from "data/writtenWork"
 import VIDEO_CONTENT from "data/videoContent"
+import ON_CAMERA_HOSTING from "data/onCameraHosting"
 
 import useInViewIndexes from "lib/hooks/useInViewIndexes"
 
@@ -36,30 +37,6 @@ const useStyles = makeStyles(({ spacing }) => ({
         justifyContent: "center",
     },
 }))
-
-const VIDEO_APPEARANCES: VideoProps[] = [
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-]
 
 export interface ContentProps {
     className?: string
@@ -119,14 +96,14 @@ const Content = ({ className }: ContentProps) => {
 
                 <ContentList className={classes.list} label="On Cemera / Hosting">
                     <OverflowList onChange={(index, value) => hostingOnChange(index, value)}>
-                        {VIDEO_APPEARANCES.map((appearance, index) => (
+                        {ON_CAMERA_HOSTING.map((appearance, index) => (
                             <Video key={index} {...appearance} />
                         ))}
                     </OverflowList>
                     <SlideIndicators
                         className={classes.indicators}
                         currentIndex={hostingIndex}
-                        total={VIDEO_APPEARANCES.length}
+                        total={ON_CAMERA_HOSTING.length}
                     />
                 </ContentList>
             </div>
