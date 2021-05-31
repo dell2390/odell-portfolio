@@ -1,12 +1,14 @@
 import { makeStyles, Typography } from "@material-ui/core"
 import cx from "clsx"
 
+import PODCAST_APPEARANCES from "data/podcastAppearances"
+
 import useInViewIndexes from "lib/hooks/useInViewIndexes"
 
 import ContentList from "components/common/ContentList"
 import OverflowList from "components/common/OverflowList"
 import RSSPodcastsContentList from "components/common/RSSPodcastsContentList"
-import PodcastsContentList, { PodcastInformation } from "components/common/PodcastsContentList"
+import PodcastsContentList from "components/common/PodcastsContentList"
 import Article, { ArticleProps } from "components/common/Article"
 import Video, { VideoProps } from "components/common/Video"
 import SlideIndicators from "components/common/SlideIndicators"
@@ -32,36 +34,6 @@ const useStyles = makeStyles(({ spacing }) => ({
         justifyContent: "center",
     },
 }))
-
-const PODCAST_APPEARANCES: PodcastInformation[] = [
-    {
-        id: "a",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        id: "b",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-    {
-        id: "c",
-        src: "http://placeimg.com/256/256/games",
-        title: "#XX - Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        series: "Qui Sapiente Atque",
-        description:
-            "Optio consectetur ad reprehenderit nostrum est. Quasi tenetur omnis porro quisquam nihil sequi eaque eum officiis. Aut maxime et occaecati voluptatem in voluptatum. Rerum et sed dignissimos quasi vel blanditiis consequatur magni eaque.",
-        url: "https://www.google.com",
-    },
-]
 
 const ARTICLES: ArticleProps[] = [
     {
