@@ -3,6 +3,7 @@ import cx from "clsx"
 
 import PODCAST_APPEARANCES from "data/podcastAppearances"
 import WRITTEN_WORK from "data/writtenWork"
+import VIDEO_CONTENT from "data/videoContent"
 
 import useInViewIndexes from "lib/hooks/useInViewIndexes"
 
@@ -35,37 +36,6 @@ const useStyles = makeStyles(({ spacing }) => ({
         justifyContent: "center",
     },
 }))
-
-const VIDEOS: VideoProps[] = [
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-    {
-        title: "Aliqua nisi culpa eiusmod quis veniam consequat esse",
-        outlet: "Hudson Inc",
-        date: "December 25, 2000",
-        src: "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        url: "https://www.google.com",
-    },
-]
 
 const VIDEO_APPEARANCES: VideoProps[] = [
     {
@@ -136,14 +106,14 @@ const Content = ({ className }: ContentProps) => {
 
                 <ContentList className={classes.list} label="Video Content">
                     <OverflowList onChange={(index, value) => videoOnChange(index, value)}>
-                        {VIDEOS.map((video, index) => (
+                        {VIDEO_CONTENT.map((video, index) => (
                             <Video key={index} {...video} />
                         ))}
                     </OverflowList>
                     <SlideIndicators
                         className={classes.indicators}
                         currentIndex={videoIndex}
-                        total={VIDEOS.length}
+                        total={VIDEO_CONTENT.length}
                     />
                 </ContentList>
 
