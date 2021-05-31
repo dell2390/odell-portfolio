@@ -44,9 +44,8 @@ export interface WorkExperienceProps {
     duration: string
     description: string
 
-    contentLabel: string
-    contentHref: string
-
+    contentLabel?: string
+    contentHref?: string
     color?: string
 }
 
@@ -68,14 +67,16 @@ const WorkExperience = ({
             <Typography className={classes.position}>{position}</Typography>
             <Typography className={classes.duration}>{duration}</Typography>
             <Typography className={classes.description}>{description}</Typography>
-            <Link
-                className={classes.content}
-                href={contentHref}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {contentLabel}
-            </Link>
+            {contentHref && contentLabel && (
+                <Link
+                    className={classes.content}
+                    href={contentHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {contentLabel}
+                </Link>
+            )}
         </Paper>
     )
 }

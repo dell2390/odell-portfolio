@@ -46,8 +46,8 @@ const Work = ({ className }: WorkProps) => {
                             position="Freelance Games Writer | IGN Entertainment"
                             duration="June 2017-Present"
                             description="Helps produce IGN Wiki guides, records game play, and aides in compiling Nintendo News."
-                            contentLabel="See My IGN Content >"
-                            contentHref="https://www.google.com"
+                            // contentLabel="See My IGN Content >"
+                            // contentHref="https://www.google.com"
                             color="#BF1313"
                         />
                     </Grid>
@@ -64,7 +64,7 @@ const Work = ({ className }: WorkProps) => {
                             duration="October 2015 - Present"
                             description="Hosts videos and podcasts, Covers industry news, reviews Indie and AAA titles, composes video scripts, records voice-overs, manages social media, and represents site at gaming conventions."
                             contentLabel="See My Game Fanatics Content >"
-                            contentHref="https://www.google.com"
+                            contentHref="https://thegamefanatics.com/author/hare23/"
                             color="#25B5EA"
                         />
                     </Grid>
@@ -80,8 +80,8 @@ const Work = ({ className }: WorkProps) => {
                             position="Production Assistant | ESPN Esports"
                             duration="March 2019-July 2019"
                             description="Hosts videos and podcasts, Covers industry news, reviews Indie and AAA titles, composes video scripts, records voice-overs, manages social media, and represents site at gaming conventions."
-                            contentLabel="See My ESPN Content >"
-                            contentHref="https://www.google.com"
+                            // contentLabel="See My ESPN Content >"
+                            // contentHref="https://www.google.com"
                             color="#EE3B33"
                         />
                     </Grid>
@@ -92,7 +92,7 @@ const Work = ({ className }: WorkProps) => {
                             duration="September 2012-December 2012"
                             description="Managed website content, wrote weekly news stories, composed online features and opinion pieces, hosted 24-hour live stream event for charity,recorded videos and podcasts, and interviewed producers and directors."
                             contentLabel="See My Game Informer Content >"
-                            contentHref="https://www.google.com"
+                            contentHref="https://www.gameinformer.com/user/odell-harmon"
                             color="#00659F"
                         />
                     </Grid>
