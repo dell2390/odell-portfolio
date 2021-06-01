@@ -62,6 +62,7 @@ const useStyles = makeStyles(({ shape, shadows, spacing, breakpoints }) => ({
         marginTop: spacing(5),
         display: "block",
         margin: "auto",
+        width: "fit-content",
     },
 }))
 
@@ -93,7 +94,14 @@ const About = () => {
                 </Link>
             </Container>
 
-            <Button className={classes.downloadButton} variant="contained" color="primary">
+            <Button
+                className={classes.downloadButton}
+                variant="contained"
+                color="primary"
+                component="a"
+                download
+                href="ODell-Harmon-Jr-Resume.pdf"
+            >
                 Download CV
             </Button>
         </div>
