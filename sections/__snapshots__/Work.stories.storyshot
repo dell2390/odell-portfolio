@@ -86,16 +86,6 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           >
             Hosts videos and podcasts, Covers industry news, reviews Indie and AAA titles, composes video scripts, records voice-overs, manages social media, and represents site at gaming conventions.
           </p>
-          <a
-            className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-3 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://thegamefanatics.com/author/hare23/"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            See My Game Fanatics Content &gt;
-          </a>
         </div>
       </div>
       <div
@@ -173,17 +163,161 @@ exports[`Storyshots Sections/Work Basic 1`] = `
           >
             Managed website content, wrote weekly news stories, composed online features and opinion pieces, hosted 24-hour live stream event for charity,recorded videos and podcasts, and interviewed producers and directors.
           </p>
-          <a
-            className="sectionswork-basic-muitypography-root-1 sectionswork-basic-muilink-root-1 sectionswork-basic-muilink-underlinehover-1 sectionswork-basic-makestyles-content-1 sectionswork-basic-makestyles-content-5 sectionswork-basic-muitypography-colorprimary-1"
-            href="https://www.gameinformer.com/user/odell-harmon"
-            onBlur={[Function]}
-            onFocus={[Function]}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            See My Game Informer Content &gt;
-          </a>
         </div>
+      </div>
+    </div>
+    <h6
+      className="sectionswork-basic-muitypography-root-1 sectionswork-basic-makestyles-sectiontitle-1 sectionswork-basic-muitypography-h6-1"
+    >
+      Catalog of Written Work
+    </h6>
+    <div
+      className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-container-1 sectionswork-basic-muigrid-spacing-xs-4-1 sectionswork-basic-muigrid-justify-xs-center-1"
+    >
+      <div
+        className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-item-1 sectionswork-basic-muigrid-grid-xs-6-1 sectionswork-basic-muigrid-grid-sm-auto-1"
+      >
+        <a
+          aria-disabled={false}
+          className="sectionswork-basic-muibuttonbase-root-1 sectionswork-basic-muibutton-root-1 sectionswork-basic-muibutton-contained-1 sectionswork-basic-makestyles-root-5 sectionswork-basic-makestyles-root-6 sectionswork-basic-makestyles-cataloglink-1"
+          href="https://thegamefanatics.com/author/hare23/"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="sectionswork-basic-muibutton-label-1"
+          >
+            Game Fanatics
+          </span>
+        </a>
+      </div>
+      <div
+        className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-item-1 sectionswork-basic-muigrid-grid-xs-6-1 sectionswork-basic-muigrid-grid-sm-auto-1"
+      >
+        <a
+          aria-disabled={false}
+          className="sectionswork-basic-muibuttonbase-root-1 sectionswork-basic-muibutton-root-1 sectionswork-basic-muibutton-contained-1 sectionswork-basic-makestyles-root-5 sectionswork-basic-makestyles-root-7 sectionswork-basic-makestyles-cataloglink-1"
+          href="https://www.gamespot.com/profile/dell2390/content/"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="sectionswork-basic-muibutton-label-1"
+          >
+            Gamespot
+          </span>
+        </a>
+      </div>
+      <div
+        className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-item-1 sectionswork-basic-muigrid-grid-xs-6-1 sectionswork-basic-muigrid-grid-sm-auto-1"
+      >
+        <a
+          aria-disabled={false}
+          className="sectionswork-basic-muibuttonbase-root-1 sectionswork-basic-muibutton-root-1 sectionswork-basic-muibutton-contained-1 sectionswork-basic-makestyles-root-5 sectionswork-basic-makestyles-root-8 sectionswork-basic-makestyles-cataloglink-1"
+          href="https://www.gameinformer.com/user/odell-harmon"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="sectionswork-basic-muibutton-label-1"
+          >
+            Game Informer
+          </span>
+        </a>
+      </div>
+      <div
+        className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-item-1 sectionswork-basic-muigrid-grid-xs-6-1 sectionswork-basic-muigrid-grid-sm-auto-1"
+      >
+        <a
+          aria-disabled={false}
+          className="sectionswork-basic-muibuttonbase-root-1 sectionswork-basic-muibutton-root-1 sectionswork-basic-muibutton-contained-1 sectionswork-basic-makestyles-root-5 sectionswork-basic-makestyles-root-9 sectionswork-basic-makestyles-cataloglink-1"
+          href="https://xblafans.com/author/harmon"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="sectionswork-basic-muibutton-label-1"
+          >
+            XBLA Fans
+          </span>
+        </a>
+      </div>
+      <div
+        className="sectionswork-basic-muigrid-root-1 sectionswork-basic-muigrid-item-1 sectionswork-basic-muigrid-grid-xs-6-1 sectionswork-basic-muigrid-grid-sm-auto-1"
+      >
+        <a
+          aria-disabled={false}
+          className="sectionswork-basic-muibuttonbase-root-1 sectionswork-basic-muibutton-root-1 sectionswork-basic-muibutton-contained-1 sectionswork-basic-makestyles-root-5 sectionswork-basic-makestyles-root-10 sectionswork-basic-makestyles-cataloglink-1"
+          href="https://gamecritics.com/author/odell-harmon-jr/"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          rel="noopener noreferrer"
+          tabIndex={0}
+          target="_blank"
+        >
+          <span
+            className="sectionswork-basic-muibutton-label-1"
+          >
+            Game Critics
+          </span>
+        </a>
       </div>
     </div>
   </div>

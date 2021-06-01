@@ -1,4 +1,4 @@
-import { makeStyles, Typography, Container, Grid, Button } from "@material-ui/core"
+import { makeStyles, Typography, Container, Grid } from "@material-ui/core"
 import cx from "clsx"
 
 import IGNLogo from "svgs/IGNLogo"

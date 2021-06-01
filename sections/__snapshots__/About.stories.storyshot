@@ -42,9 +42,11 @@ exports[`Storyshots Sections/About Basic 1`] = `
       Get In Touch &gt;
     </a>
   </div>
-  <button
+  <a
+    aria-disabled={false}
     className="sectionsabout-basic-muibuttonbase-root-1 sectionsabout-basic-muibutton-root-1 sectionsabout-basic-muibutton-contained-1 sectionsabout-basic-makestyles-downloadbutton-1 sectionsabout-basic-muibutton-containedprimary-1"
-    disabled={false}
+    download={true}
+    href="ODell-Harmon-Jr-Resume.pdf"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -57,13 +59,12 @@ exports[`Storyshots Sections/About Basic 1`] = `
     onTouchMove={[Function]}
     onTouchStart={[Function]}
     tabIndex={0}
-    type="button"
   >
     <span
       className="sectionsabout-basic-muibutton-label-1"
     >
       Download CV
     </span>
-  </button>
+  </a>
 </div>
 `;
