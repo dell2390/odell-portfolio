@@ -561,6 +561,65 @@ exports[`Storyshots Sections/Content Basic 1`] = `
               className="sectionscontent-basic-makestyles-header-1"
             >
               <img
+                alt="XBLA Fans logo"
+                className="sectionscontent-basic-makestyles-outletlogo-1"
+                src="/outlet_xbla_fans.webp"
+              />
+              <div
+                className="sectionscontent-basic-makestyles-info-2"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://xblafans.com/banner-saga-2-review-marching-right-direction-88133.html"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    The Banner Saga 2 Review: Marching In The Right Direction
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  XBLA Fans | July 5, 2016
+                </p>
+              </div>
+            </div>
+            <a
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
+              href="https://xblafans.com/banner-saga-2-review-marching-right-direction-88133.html"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="The Banner Saga 2 Review: Marching In The Right Direction thumbnail"
+                className="sectionscontent-basic-makestyles-photo-2"
+                src="/written_work_the_banner_saga_2_review.webp"
+              />
+            </a>
+            <p
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
+            >
+              The Banner Saga concluded on a life-and-death decision, and now Stoic has returned to the Norse world of humans, Varl and Dredge where the only certainty is death. This sophomore effort picks up right where the action ended. Things have gone to the depths, and your decision-making abilities will be pushed until you’re questioning everyone’s motives, even your own. Between war tactics and keeping the morale high, this tactical RPG successfully moves the caravan in the right direction.
+            </p>
+          </div>
+        </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          >
+            <div
+              className="sectionscontent-basic-makestyles-header-1"
+            >
+              <img
                 alt="Game Informer logo"
                 className="sectionscontent-basic-makestyles-outletlogo-1"
                 src="/outlet_game_informer.webp"
@@ -787,6 +846,65 @@ exports[`Storyshots Sections/Content Basic 1`] = `
             </p>
           </div>
         </div>
+        <div
+          className="sectionscontent-basic-makestyles-item-1"
+        >
+          <div
+            className="sectionscontent-basic-muipaper-root-1 sectionscontent-basic-makestyles-root-6 sectionscontent-basic-muipaper-elevation1-1 sectionscontent-basic-muipaper-rounded-1"
+          >
+            <div
+              className="sectionscontent-basic-makestyles-header-1"
+            >
+              <img
+                alt="XBLA Fans logo"
+                className="sectionscontent-basic-makestyles-outletlogo-1"
+                src="/outlet_xbla_fans.webp"
+              />
+              <div
+                className="sectionscontent-basic-makestyles-info-2"
+              >
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-title-3 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  <a
+                    className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-muitypography-colorprimary-1"
+                    href="https://xblafans.com/happy-preview-make-joyful-noise-87140.html"
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    We Happy Few Preview: Make A Joyful Noise
+                  </a>
+                </p>
+                <p
+                  className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-details-1 sectionscontent-basic-makestyles-oneline-2 sectionscontent-basic-muitypography-body1-1"
+                >
+                  XBLA Fans | May 9, 2016
+                </p>
+              </div>
+            </div>
+            <a
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-muilink-root-1 sectionscontent-basic-muilink-underlinehover-1 sectionscontent-basic-makestyles-link-2 sectionscontent-basic-muitypography-colorprimary-1"
+              href="https://xblafans.com/happy-preview-make-joyful-noise-87140.html"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="We Happy Few Preview: Make A Joyful Noise thumbnail"
+                className="sectionscontent-basic-makestyles-photo-2"
+                src="/written_work_we_happy_few_preview.webp"
+              />
+            </a>
+            <p
+              className="sectionscontent-basic-muitypography-root-1 sectionscontent-basic-makestyles-blurb-1 sectionscontent-basic-muitypography-body2-1"
+            >
+              Have you ever had a very realistic dream that you couldn’t wake up from? One where everything seemed normal, but you just couldn’t shake the shivering feeling that something was off. When you suddenly realize you can’t wake up, the fear creeps into every corner of your mind because you’re actually trapped in a nightmare. It’s something many people have described going through, and though I’ve never experienced it myself, Compulsion Games’ We Happy Few is the closest I’ve gotten to the sensation.
+            </p>
+          </div>
+        </div>
       </div>
       <div
         className="sectionscontent-basic-makestyles-root-4 sectionscontent-basic-makestyles-indicators-1"
@@ -797,6 +915,12 @@ exports[`Storyshots Sections/Content Basic 1`] = `
           }
         }
       >
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
+        <div
+          className="sectionscontent-basic-makestyles-indicator-1"
+        />
         <div
           className="sectionscontent-basic-makestyles-indicator-1"
         />

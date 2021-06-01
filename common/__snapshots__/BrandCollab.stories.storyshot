@@ -2,19 +2,19 @@
 
 exports[`Storyshots Common/BrandCollab Basic 1`] = `
 <div
-  className="commonbrandcollab-basic-muipaper-root-1 commonbrandcollab-basic-makestyles-root-1 commonbrandcollab-basic-muipaper-elevation1-1 commonbrandcollab-basic-muipaper-rounded-1"
+  className="commonbrandcollab-basic-muipaper-root-1 commonbrandcollab-basic-makestyles-root-1 commonbrandcollab-basic-makestyles-root-2 commonbrandcollab-basic-muipaper-elevation1-1 commonbrandcollab-basic-muipaper-rounded-1"
 >
   <div
-    className="commonbrandcollab-basic-makestyles-half-1"
+    className="commonbrandcollab-basic-makestyles-half-1 commonbrandcollab-basic-makestyles-half-2"
   >
     <img
       alt="brand collab"
-      className="commonbrandcollab-basic-makestyles-photo-1"
+      className="commonbrandcollab-basic-makestyles-photo-1 commonbrandcollab-basic-makestyles-photo-2"
       src="http://placekitten.com/800/450"
     />
   </div>
   <div
-    className="commonbrandcollab-basic-makestyles-quote-1 commonbrandcollab-basic-makestyles-quote-2 commonbrandcollab-basic-makestyles-half-1"
+    className="commonbrandcollab-basic-makestyles-quote-1 commonbrandcollab-basic-makestyles-quote-2 commonbrandcollab-basic-makestyles-half-1 commonbrandcollab-basic-makestyles-half-2"
   >
     <p
       className="commonbrandcollab-basic-muitypography-root-1 commonbrandcollab-basic-makestyles-message-1 commonbrandcollab-basic-muitypography-body1-1"

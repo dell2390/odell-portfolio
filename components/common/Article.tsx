@@ -48,6 +48,7 @@ const useStyles = makeStyles(({ spacing }) => ({
     title: {
         flexGrow: 0,
         flexShrink: 0,
+        textTransform: "capitalize",
     },
     details: {
         flexGrow: 0,

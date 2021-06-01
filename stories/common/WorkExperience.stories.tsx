@@ -19,8 +19,6 @@ Basic.args = {
     duration: "January 2000 - Present",
     description:
         "Officia commodo non ullamco magna. Elit aliqua dolore aute aliqua culpa esse culpa non magna pariatur. Anim consequat veniam consequat culpa irure Lorem sint nulla cillum Lorem. Ad sit anim ipsum cupidatat qui veniam commodo.",
-    contentLabel: "See My Voluptate Content >",
-    contentHref: "https://www.google.com",
 }
 
 export const WithHeader: Story<WorkExperienceProps> = (args) => <WorkExperience {...args} />
