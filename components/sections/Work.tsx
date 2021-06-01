@@ -99,7 +99,7 @@ const Work = ({ className }: WorkProps) => {
                 </Grid>
 
                 <Typography className={classes.sectionTitle} variant="h6">
-                    Catalog of work
+                    Catalog of Written Work
                 </Typography>
                 <Grid container spacing={4} justify="center">
                     <Grid item xs={6} sm="auto">

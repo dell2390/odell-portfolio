@@ -33,6 +33,16 @@ const ARTICLES: ArticleProps[] = [
         url: "https://thegamefanatics.com/donut-county-hands-on-preview-holey-moley/",
     },
     {
+        thumbnailSrc: "/written_work_the_banner_saga_2_review.webp",
+        title: "The Banner Saga 2 Review: Marching In The Right Direction",
+        outlet: "XBLA Fans",
+        date: "July 5, 2016",
+        outletLogoSrc: "/outlet_xbla_fans.webp",
+        blurb:
+            "The Banner Saga concluded on a life-and-death decision, and now Stoic has returned to the Norse world of humans, Varl and Dredge where the only certainty is death. This sophomore effort picks up right where the action ended. Things have gone to the depths, and your decision-making abilities will be pushed until you’re questioning everyone’s motives, even your own. Between war tactics and keeping the morale high, this tactical RPG successfully moves the caravan in the right direction.",
+        url: "https://xblafans.com/banner-saga-2-review-marching-right-direction-88133.html",
+    },
+    {
         thumbnailSrc: "/written_work_top_50_poke.webp",
         title: "Top 50 Pokémon Of All Time",
         outlet: "Game Informer",
@@ -72,6 +82,16 @@ const ARTICLES: ArticleProps[] = [
             "Galarian Forms are officially confirmed for Pokémon Sword and Pokémon Shield. Game Freak showcased Galarian Weezing sporting a dashing mustache and tophat combo, and Galarian Zigzagoon wearing his best Kiss concert makeup. Breaking the “only Kantonian Pokémon get regional forms” trend that Pokémon Sun and Pokémon Moon started. Along with introducing regional variant only evolutions with Obstagoon.",
         url:
             "https://thegamefanatics.com/the-galarian-forms-pokemon-sword-and-pokemon-shield-need/",
+    },
+    {
+        thumbnailSrc: "/written_work_we_happy_few_preview.webp",
+        title: "We Happy Few Preview: Make A Joyful Noise",
+        outlet: "XBLA Fans",
+        date: "May 9, 2016",
+        outletLogoSrc: "/outlet_xbla_fans.webp",
+        blurb:
+            "Have you ever had a very realistic dream that you couldn’t wake up from? One where everything seemed normal, but you just couldn’t shake the shivering feeling that something was off. When you suddenly realize you can’t wake up, the fear creeps into every corner of your mind because you’re actually trapped in a nightmare. It’s something many people have described going through, and though I’ve never experienced it myself, Compulsion Games’ We Happy Few is the closest I’ve gotten to the sensation.",
+        url: "https://xblafans.com/happy-preview-make-joyful-noise-87140.html",
     },
 ]
 
