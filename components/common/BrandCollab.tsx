@@ -3,45 +3,50 @@ import cx from "clsx"
 
 import Quote, { QuoteProps } from "components/common/Quote"
 
-const useStyles = makeStyles<Theme, { color?: string }>(
-    ({ spacing, shape, palette, breakpoints }) => ({
-        root: {
-            borderRadius: shape.borderRadius * 2,
-            overflow: "hidden",
+const useStyles = makeStyles<
+    Theme,
+    { color?: string; variant: "vertical" | "horizontal"; reverse?: boolean }
+>(({ spacing, shape, palette }) => ({
+    root: ({ variant, reverse }) => ({
+        borderRadius: shape.borderRadius * 2,
+        overflow: "hidden",
+        display: "flex",
+        flexDirection: variant === "vertical" ? "column" : reverse ? "row-reverse" : "row",
+    }),
+    half: ({ variant }) => ({
+        display: "flex",
 
-            [breakpoints.up("sm")]: {
-                display: "flex",
-            },
-        },
-        half: {
-            display: "flex",
-            [breakpoints.up("sm")]: {
-                flexBasis: "50%",
-                flexGrow: 1,
-                flexShrink: 0,
-            },
-        },
-        photo: {
-            maxWidth: "100%",
-            width: "100%",
+        ...(variant === "vertical"
+            ? {}
+            : {
+                  flexBasis: "50%",
+                  flexGrow: 1,
+                  flexShrink: 0,
+              }),
+    }),
+    photo: ({ variant }) => ({
+        maxWidth: "100%",
+        width: "100%",
 
-            [breakpoints.up("sm")]: {
-                height: "100%",
-                objectFit: "cover",
-            },
-        },
-        quote: ({ color = "#ffffff" }) => ({
-            backgroundColor: color,
-            color: palette.getContrastText(color),
+        ...(variant === "vertical"
+            ? {}
+            : {
+                  height: "100%",
+                  objectFit: "cover",
+              }),
+    }),
+    quote: ({ color = "#ffffff" }) => ({
+        backgroundColor: color,
+        color: palette.getContrastText(color),
 
-            padding: spacing(2),
+        padding: spacing(2),
 
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "stretch",
-        }),
-    })
-)
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "stretch",
+        flexGrow: 1,
+    }),
+}))
 
 export interface BrandCollabProps {
     className?: string
@@ -49,11 +54,20 @@ export interface BrandCollabProps {
     src: string
     quoteProps: QuoteProps
 
+    variant?: "vertical" | "horizontal"
     color?: string
+    reverse?: boolean
 }
 
-const BrandCollab = ({ className, src, quoteProps, color }: BrandCollabProps) => {
-    const classes = useStyles({ color })
+const BrandCollab = ({
+    className,
+    src,
+    quoteProps,
+    color,
+    variant = "vertical",
+    reverse,
+}: BrandCollabProps) => {
+    const classes = useStyles({ color, variant, reverse })
 
     return (
         <Paper className={cx(classes.root, className)}>
