@@ -1,8 +1,8 @@
 import { ReactNode } from "react"
-import { makeStyles, Theme, Typography, Link, Paper } from "@material-ui/core"
+import { makeStyles, Typography, Paper } from "@material-ui/core"
 import cx from "clsx"
 
-const useStyles = makeStyles<Theme, { color?: string }>(({ spacing, shape, typography }) => ({
+const useStyles = makeStyles(({ spacing, shape, typography }) => ({
     root: {
         borderRadius: shape.borderRadius * 2,
         padding: spacing(2),
@@ -28,12 +28,6 @@ const useStyles = makeStyles<Theme, { color?: string }>(({ spacing, shape, typog
         lineHeight: "160%",
         flexGrow: 1,
     },
-    content: ({ color }) => ({
-        display: "inline-block",
-        marginTop: spacing(2),
-        fontWeight: 900,
-        color,
-    }),
 }))
 
 export interface WorkExperienceProps {
@@ -43,10 +37,6 @@ export interface WorkExperienceProps {
     position: string
     duration: string
     description: string
-
-    contentLabel?: string
-    contentHref?: string
-    color?: string
 }
 
 const WorkExperience = ({
@@ -55,11 +45,8 @@ const WorkExperience = ({
     position,
     duration,
     description,
-    contentLabel,
-    contentHref,
-    color,
 }: WorkExperienceProps) => {
-    const classes = useStyles({ color })
+    const classes = useStyles()
 
     return (
         <Paper className={cx(classes.root, className)}>
@@ -67,16 +54,6 @@ const WorkExperience = ({
             <Typography className={classes.position}>{position}</Typography>
             <Typography className={classes.duration}>{duration}</Typography>
             <Typography className={classes.description}>{description}</Typography>
-            {contentHref && contentLabel && (
-                <Link
-                    className={classes.content}
-                    href={contentHref}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {contentLabel}
-                </Link>
-            )}
         </Paper>
     )
 }
