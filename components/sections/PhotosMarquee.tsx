@@ -30,7 +30,6 @@ const PhotosMarquee = () => {
     const classes = useStyles()
 
     const floating = useMediaQuery<Theme>((theme) => theme.breakpoints.up("xl"))
-    console.log("Floating: ", floating)
 
     return (
         <Container className={classes.root} disableGutters maxWidth="xl">
