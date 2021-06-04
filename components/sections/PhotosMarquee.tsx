@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core"
+import { makeStyles, useMediaQuery, Theme, Container } from "@material-ui/core"
 import Marquee from "react-fast-marquee"
 
 import marqueePhotos from "data/marqueePhotos"
@@ -9,36 +9,44 @@ const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     root: {
         marginTop: spacing(8),
         marginBottom: spacing(8),
-        paddingTop: spacing(2),
-        paddingBottom: spacing(2),
+    },
+
+    marquee: {
         height: `${MARQUEE_CONTENT_HEIGHT + spacing(4)}px`,
     },
 
     image: {
-        height: "100%",
+        height: `${MARQUEE_CONTENT_HEIGHT}px`,
         width: "auto",
         boxShadow: shadows[4],
         borderRadius: shape.borderRadius * 2,
         marginRight: spacing(3),
+
+        marginTop: spacing(2),
+        marginBottom: spacing(2),
     },
 }))
 
 const PhotosMarquee = () => {
     const classes = useStyles()
 
+    const floating = useMediaQuery<Theme>((theme) => theme.breakpoints.up("xl"))
+
     return (
-        <Marquee className={classes.root} gradient={false}>
-            {marqueePhotos.map((photo, index) => (
-                <img
-                    key={`${photo}-${index}`}
-                    className={classes.image}
-                    src={photo.src}
-                    alt={`maruee moment ${index + 1}`}
-                    height={photo.height}
-                    width={photo.width}
-                />
-            ))}
-        </Marquee>
+        <Container className={classes.root} disableGutters maxWidth="xl">
+            <Marquee className={classes.marquee} gradient={floating}>
+                {marqueePhotos.map((photo, index) => (
+                    <img
+                        key={`${photo}-${index}`}
+                        className={classes.image}
+                        src={photo.src}
+                        alt={`maruee moment ${index + 1}`}
+                        height={photo.height}
+                        width={photo.width}
+                    />
+                ))}
+            </Marquee>
+        </Container>
     )
 }
 

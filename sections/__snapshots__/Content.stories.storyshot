@@ -9,7 +9,9 @@ exports[`Storyshots Sections/Content Basic 1`] = `
   >
     My Work Around The Internet
   </h4>
-  <div>
+  <div
+    className="sectionscontent-basic-muicontainer-root-1 sectionscontent-basic-muicontainer-maxwidthlg-1"
+  >
     <div
       className="sectionscontent-basic-makestyles-root-2 sectionscontent-basic-makestyles-list-1"
     >

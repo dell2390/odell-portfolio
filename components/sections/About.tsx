@@ -89,7 +89,7 @@ const About = () => {
                     within the industry — building friendships with people on the publisher and
                     media side of gaming.
                 </Typography>
-                <Link className={classes.contactLink} href="mailto:example@example.com">
+                <Link className={classes.contactLink} href="mailto:Dell2390@gmail.com">
                     Get In Touch &gt;
                 </Link>
             </Container>

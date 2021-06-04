@@ -2,13 +2,16 @@ import { ReactNode } from "react"
 import { makeStyles, Typography } from "@material-ui/core"
 import cx from "clsx"
 
-const useStyles = makeStyles(({ spacing, mixins }) => ({
+const useStyles = makeStyles(({ spacing, mixins, breakpoints }) => ({
     root: {},
     label: {
-        ...mixins.gutters(),
         fontWeight: 900,
         textTransform: "capitalize",
         marginBottom: spacing(2),
+
+        [breakpoints.down("lg")]: {
+            ...mixins.gutters(),
+        },
     },
 }))
 
