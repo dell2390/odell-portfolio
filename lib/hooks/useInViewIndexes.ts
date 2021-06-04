@@ -17,7 +17,6 @@ const useInviewIndexes = (initialValues?: boolean[], mode?: "first" | "all" | "l
     mode = mode ?? "all"
 
     const onChange = (index: number, value: boolean) => {
-        console.log(`Index ${index} - ${value}`)
         const _indexes = [...indexes]
         _indexes[index] = value
 

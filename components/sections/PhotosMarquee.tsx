@@ -9,6 +9,9 @@ const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     root: {
         marginTop: spacing(8),
         marginBottom: spacing(8),
+    },
+
+    marquee: {
         paddingTop: spacing(2),
         paddingBottom: spacing(2),
         height: `${MARQUEE_CONTENT_HEIGHT + spacing(4)}px`,
@@ -27,10 +30,11 @@ const PhotosMarquee = () => {
     const classes = useStyles()
 
     const floating = useMediaQuery<Theme>((theme) => theme.breakpoints.up("xl"))
+    console.log("Floating: ", floating)
 
     return (
         <Container className={classes.root} disableGutters maxWidth="xl">
-            <Marquee gradient={floating}>
+            <Marquee className={classes.marquee} gradient={floating}>
                 {marqueePhotos.map((photo, index) => (
                     <img
                         key={`${photo}-${index}`}
