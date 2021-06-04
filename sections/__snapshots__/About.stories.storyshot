@@ -35,7 +35,7 @@ exports[`Storyshots Sections/About Basic 1`] = `
     </p>
     <a
       className="sectionsabout-basic-muitypography-root-1 sectionsabout-basic-muilink-root-1 sectionsabout-basic-muilink-underlinehover-1 sectionsabout-basic-makestyles-contactlink-1 sectionsabout-basic-muitypography-colorprimary-1"
-      href="mailto:example@example.com"
+      href="mailto:Dell2390@gmail.com"
       onBlur={[Function]}
       onFocus={[Function]}
     >
