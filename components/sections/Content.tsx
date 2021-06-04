@@ -1,4 +1,4 @@
-import { makeStyles, Typography } from "@material-ui/core"
+import { makeStyles, Typography, Container } from "@material-ui/core"
 import cx from "clsx"
 
 import PODCAST_APPEARANCES from "data/podcastAppearances"
@@ -55,7 +55,7 @@ const Content = ({ className }: ContentProps) => {
                 My Work Around The Internet
             </Typography>
 
-            <div>
+            <Container>
                 <RSSPodcastsContentList
                     className={classes.list}
                     title="Full Circle Podcast"
@@ -106,7 +106,7 @@ const Content = ({ className }: ContentProps) => {
                         total={ON_CAMERA_HOSTING.length}
                     />
                 </ContentList>
-            </div>
+            </Container>
         </div>
     )
 }
