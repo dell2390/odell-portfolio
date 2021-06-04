@@ -21,9 +21,8 @@ const useStyles = makeStyles(({ spacing, palette }) => ({
         textTransform: "capitalize",
     },
     header: {
-        height: "100%",
-        width: "auto",
         maxHeight: 32,
+        width: "auto",
         maxWidth: "100%",
     },
     sectionTitle: {
