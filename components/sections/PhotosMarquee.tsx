@@ -12,17 +12,18 @@ const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
     },
 
     marquee: {
-        paddingTop: spacing(2),
-        paddingBottom: spacing(2),
         height: `${MARQUEE_CONTENT_HEIGHT + spacing(4)}px`,
     },
 
     image: {
-        height: "100%",
+        height: `${MARQUEE_CONTENT_HEIGHT}px`,
         width: "auto",
         boxShadow: shadows[4],
         borderRadius: shape.borderRadius * 2,
         marginRight: spacing(3),
+
+        marginTop: spacing(2),
+        marginBottom: spacing(2),
     },
 }))
 
