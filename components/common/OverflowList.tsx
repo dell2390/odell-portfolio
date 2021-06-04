@@ -41,11 +41,6 @@ const useStyles = makeStyles(({ spacing, breakpoints }) => ({
             minWidth: "calc(((100% / 12) * 4))",
             maxWidth: "calc(((100% / 12) * 4))",
         },
-
-        [breakpoints.up("xl")]: {
-            minWidth: "calc(((100% / 12) * 3))",
-            maxWidth: "calc(((100% / 12) * 3))",
-        },
     },
     anchor: {
         paddingLeft: spacing(2),

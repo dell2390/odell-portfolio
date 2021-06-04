@@ -5,7 +5,7 @@ import brandCollabs from "data/brandCollabs"
 
 import BrandCollab from "components/common/BrandCollab"
 
-const useStyles = makeStyles(({ spacing, breakpoints }) => ({
+const useStyles = makeStyles(({ spacing }) => ({
     root: {
         paddingTop: spacing(5),
         paddingBottom: spacing(10),

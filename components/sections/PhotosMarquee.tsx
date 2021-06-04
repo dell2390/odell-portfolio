@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core"
+import { makeStyles, useMediaQuery, Theme, Container } from "@material-ui/core"
 import Marquee from "react-fast-marquee"
 
 import marqueePhotos from "data/marqueePhotos"
@@ -26,19 +26,23 @@ const useStyles = makeStyles(({ spacing, shadows, shape }) => ({
 const PhotosMarquee = () => {
     const classes = useStyles()
 
+    const floating = useMediaQuery<Theme>((theme) => theme.breakpoints.up("xl"))
+
     return (
-        <Marquee className={classes.root} gradient={false}>
-            {marqueePhotos.map((photo, index) => (
-                <img
-                    key={`${photo}-${index}`}
-                    className={classes.image}
-                    src={photo.src}
-                    alt={`maruee moment ${index + 1}`}
-                    height={photo.height}
-                    width={photo.width}
-                />
-            ))}
-        </Marquee>
+        <Container className={classes.root} disableGutters maxWidth="xl">
+            <Marquee gradient={floating}>
+                {marqueePhotos.map((photo, index) => (
+                    <img
+                        key={`${photo}-${index}`}
+                        className={classes.image}
+                        src={photo.src}
+                        alt={`maruee moment ${index + 1}`}
+                        height={photo.height}
+                        width={photo.width}
+                    />
+                ))}
+            </Marquee>
+        </Container>
     )
 }
 

@@ -1,4 +1,4 @@
-import { makeStyles, Typography, Container } from "@material-ui/core"
+import { makeStyles, useMediaQuery, Theme, Typography, Container } from "@material-ui/core"
 import cx from "clsx"
 
 import PODCAST_APPEARANCES from "data/podcastAppearances"
@@ -49,13 +49,15 @@ const Content = ({ className }: ContentProps) => {
     const [videoIndex, videoOnChange] = useInViewIndexes()
     const [hostingIndex, hostingOnChange] = useInViewIndexes()
 
+    const disableGutters = useMediaQuery<Theme>((theme) => theme.breakpoints.down("lg"))
+
     return (
         <div className={cx(classes.root, className)}>
             <Typography className={classes.title} variant="h4">
                 My Work Around The Internet
             </Typography>
 
-            <Container>
+            <Container disableGutters={disableGutters}>
                 <RSSPodcastsContentList
                     className={classes.list}
                     title="Full Circle Podcast"
