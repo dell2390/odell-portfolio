@@ -96,7 +96,7 @@ const Content = ({ className }: ContentProps) => {
                     />
                 </ContentList>
 
-                <ContentList className={classes.list} label="On Cemera / Hosting">
+                <ContentList className={classes.list} label="On Camera / Hosting">
                     <OverflowList onChange={(index, value) => hostingOnChange(index, value)}>
                         {ON_CAMERA_HOSTING.map((appearance, index) => (
                             <Video key={index} {...appearance} />
