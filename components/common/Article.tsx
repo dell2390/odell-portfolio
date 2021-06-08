@@ -13,6 +13,7 @@ const useStyles = makeStyles(({ spacing }) => ({
     link: {
         display: "flex",
         width: "100%",
+        alignItems: "flex-start",
     },
     header: {
         width: "100%",

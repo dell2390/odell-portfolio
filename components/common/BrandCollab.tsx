@@ -15,6 +15,7 @@ const useStyles = makeStyles<
     }),
     half: ({ variant }) => ({
         display: "flex",
+        alignItems: "flex-start",
 
         ...(variant === "vertical"
             ? {}
